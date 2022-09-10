@@ -1,8 +1,8 @@
 ### Exploring the differences between isostructural MOFs MFM-300(Sc) and MFM-300(In) using computational methods
 
-Marcos Rivera-Almazo
+M.Sc. Marcos Rivera-Almazo <a href="https://molecular-mar.github.io/"><img src="img/github.png" height=50px></a> <a href="https://www.researchgate.net/profile/Marcos-Rivera-Almazo"><img src="img/rglogo.png" height=50px></a>
 
-Supervisor: Jorge Garza Olguín
+Contact: mralm@xanum.uam.mx
 
 |||
 |--|--|
@@ -15,16 +15,18 @@ Supervisor: Jorge Garza Olguín
     <div class="r-stack">
         <div data-markdown class="fragment fade-out" data-fragment-index="0">
 
-* MOFs and MFM-300 family components
+* MFM-300(Sc) and MFM-300(In) components
         
-    * Metal center (Sc, In, Cr, Al,...) 
+    * Metal center (Sc, In) 
     * Organic ligand (biphenyl-3,3′, 5,5′-tetracarboxylate)     
-    * μ<sub>2</sub>-OH bridge 
+    * μ<sub>2</sub>-OH bridge
+
+* Isostructural materials 
         </div>    
         <div data-markdown class="fragment current-visible" data-fragment-index="0">
 
 * Experimental studies for the In and Sc variants
-    * Larger Benzene (Bz) adsorption
+    * Larger Benzene (Bz) adsorption in MFM-300(Sc)
     * Formation of polysulfides in presence of H<sub>2</sub>S, with larger chains for In
         </div>
         <div data-markdown class="fragment fade-in">
@@ -38,16 +40,25 @@ Supervisor: Jorge Garza Olguín
         <model-viewer bounds="tight" 
  	        enable-pan src="models3D/mfmIn_clear.glb" 
 	        camera-controls environment-image="neutral" 
-            camera-orbit="0deg 75deg 2m"
+            camera-orbit="0deg 90deg 2m"
         	poster="img/poster.png" 
-        	shadow-intensity="0">
-            <button class="Hotspot" slot="hotspot-2" data-position="-0.016136788012466652m 1.8188077688410695m -1.1092772696304694m" data-normal="0.3877984063151501m 0.6208699364220553m 0.6812730129006306m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Organic ligand
-        </div>
-    </button><button class="Hotspot" slot="hotspot-5" data-position="1.7840894715853053m 1.7677043049728423m 0.6518118625453408m" data-normal="0.48160193641876264m 0.27766315751633935m 0.8312416891589081m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">OH bridge</div>
-    </button><button class="Hotspot" slot="hotspot-7" data-position="-1.374190778253282m 1.964442284089202m 1.3709640283087712m" data-normal="0.00479209835895687m 0.5999895154339765m 0.7999935107003183m" data-visibility-attribute="visible">
+        	shadow-intensity="0"
+            auto-rotate
+            interaction-prompt=none>
+            <button class="Hotspot" slot="hotspot-3" data-position="-1.8812155300539697m 1.763153750904624m -0.35147077915528335m" data-normal="-0.24508880025691712m 0.26956470714956804m 0.9312713614451982m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotationl">OH bridge</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-1.3449316072047406m 1.8874519669395287m 1.4285309580878136m" data-normal="0.00479209835895687m 0.5999895154339765m 0.7999935107003183m" data-visibility-attribute="visible">
         <div class="HotspotAnnotation">Metal</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-2.168626637990537m 2.3799385322279996m -2.2336290327512383m" data-normal="-0.5333272400624021m 0.05224716296927647m -0.8442939588609425m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Metal</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="1.7376060017548984m 1.7298722086145164m -3.6132504585087126m" data-normal="-0.13498223760778588m -0.08320034631379696m -0.9873487215283462m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">OH bridge</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="2.587617916028829m 1.89976071439453m -0.8030771211442933m" data-normal="0.7815222232380535m 0.6222877345641713m -0.044508313785649636m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Metal</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="-1.940658580440196m -0.1056368413596831m -1.6605607461386063m" data-normal="-0.8245146437912436m -0.2996659546597841m 0.47997491371074696m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Organic ligand</div>
+    </button><button class="Hotspot" slot="hotspot-11" data-position="1.8570928346928899m -0.08434399133416909m -0.26363810285161593m" data-normal="0.8297405486551619m -0.27057997718439103m -0.48817732215284826m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Organic ligand</div>
     </button>
         </model-viewer>
     </div>
@@ -65,7 +76,11 @@ Supervisor: Jorge Garza Olguín
     </div>    
     <div data-markdown class="fragment fade-in-then-out">
 
-What we found: 
+|||
+|--|--|
+|MFM-300(Sc)|MFM-300(In)|
+
+What we found:
     </div>    
     <div data-markdown class="fragment fade-in-then-out">
 
@@ -112,13 +127,16 @@ What we found:
 * Because of that it has a lower adsorption capacity. 
 * Given a [proposed](https://pubs.acs.org/doi/10.1021/acs.chemmater.1c01918) reaction mechanism, this may explain the formation of larger polysulfides. 
 
-Published article [link](https://pubs.acs.org/doi/10.1021/acs.jpcc.2c00742):
-<img src="img/rivera2022G.png" height=150px>
+---
+### Published [article](https://pubs.acs.org/doi/10.1021/acs.jpcc.2c00742):  
+Rivera-Almazo, Marcos, *et al*, Isostructural MFM-300(Sc) and MFM-300(In):  
+Adsorption Behavior to Determine Their Differences, The Journal of Physical  
+Chemistry C **2022** 126 (14), 6465-6471
+
+<img src="img/rivera2022G.png" height=250px>
 
 
 ## Thank you for you attention!
 
 QR for this presentation:
 <img src="img/qrGit.png" height=200px>
-
-
