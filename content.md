@@ -26,14 +26,17 @@ Contact: mralm@xanum.uam.mx
         <div data-markdown class="fragment current-visible" data-fragment-index="0">
 
 * Experimental studies for the In and Sc variants
+
     * Larger Benzene (Bz) adsorption in MFM-300(Sc)
     * Formation of polysulfides in presence of H<sub>2</sub>S, with larger chains for In
         </div>
+
         <div data-markdown class="fragment fade-in">
             <span class="fragment highlight-red">
 * No clear reason for this difference in reactivity
             </span>
         </div>
+
     </div>
 
     <div style="margin: 3em auto; display: flex; flex-direction: column; max-width: 400px;max-height: 500px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
@@ -43,7 +46,7 @@ Contact: mralm@xanum.uam.mx
             camera-orbit="0deg 90deg 2m"
         	poster="img/poster.png" 
         	shadow-intensity="0"
-            auto-rotate
+		auto-rotate
             interaction-prompt=none>
             <button class="Hotspot" slot="hotspot-3" data-position="-1.8812155300539697m 1.763153750904624m -0.35147077915528335m" data-normal="-0.24508880025691712m 0.26956470714956804m 0.9312713614451982m" data-visibility-attribute="visible">
         <div class="HotspotAnnotationl">OH bridge</div>
