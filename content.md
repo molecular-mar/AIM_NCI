@@ -17,7 +17,7 @@ Contacto: mralm@xanum.uam.mx
 
 ### Fundamentos de QTAIM
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+<!-- <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
     <div class="r-stack">
         <div data-markdown class="fragment fade-out" data-fragment-index="0">
 
@@ -71,7 +71,7 @@ Contacto: mralm@xanum.uam.mx
     </button>
         </model-viewer>
     </div>
-</div>
+</div> -->
 ---
 
 ### Searching for differences
