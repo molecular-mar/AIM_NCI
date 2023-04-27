@@ -1,4 +1,4 @@
-### Exploring the differences between isostructural MOFs MFM-300(Sc) and MFM-300(In) using computational methods
+### Vacancia de oxígeno como atractor no nuclear en CaTiO<sub>3</sub>
 
 M.Sc. Marcos Rivera-Almazo <a href="https://molecular-mar.github.io/"><img src="img/github.png" height=50px></a> <a href="https://www.researchgate.net/profile/Marcos-Rivera-Almazo"><img src="img/rglogo.png" height=50px></a>
 
