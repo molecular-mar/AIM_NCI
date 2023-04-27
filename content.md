@@ -15,7 +15,12 @@ Contacto: mralm@xanum.uam.mx
 * CaTiO<sub>3</sub> con V<sub>O</sub>
 * V<sub>O</sub> como NNA
 
+---
+
 ### Fundamentos de QTAIM
+
+* La Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico) 
+* Análisis topológico de la densidad electrónica $\rho(r)$
 
 ---
 
