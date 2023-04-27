@@ -1,15 +1,21 @@
 ### Vacancia de oxígeno como atractor no nuclear en CaTiO<sub>3</sub>
+M. en C. Marcos Rivera-Almazo <a href="https://molecular-mar.github.io/"><img src="img/github.png" height=50px></a> <a href="https://www.researchgate.net/profile/Marcos-Rivera-Almazo"><img src="img/rglogo.png" height=50px></a>
 
-M.Sc. Marcos Rivera-Almazo <a href="https://molecular-mar.github.io/"><img src="img/github.png" height=50px></a> <a href="https://www.researchgate.net/profile/Marcos-Rivera-Almazo"><img src="img/rglogo.png" height=50px></a>
-
-Contact: mralm@xanum.uam.mx
+Contacto: mralm@xanum.uam.mx
 
 |||
 |--|--|
 |![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/logoMSSC.png" height=140px)>|
 
 
-### Why this pair of MOFs?
+### Contenido
+
+* Fundamentos de QTAIM
+    * Algunos ejemplos
+* CaTiO<sub>3</sub> con V<sub>O</sub>
+* V<sub>O</sub> como NNA
+
+### Fundamentos de QTAIM
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
     <div class="r-stack">
