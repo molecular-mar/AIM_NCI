@@ -36,7 +36,7 @@ Contacto: mralm@xanum.uam.mx
 * Clasificación basada en la matriz Hessiana:
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
-    <div class=column>
+<div data-markdown class="column">
 
 |Firma|Objeto|
 |--|--|
@@ -46,7 +46,7 @@ Contacto: mralm@xanum.uam.mx
 |(3,+1)|Caja|
 
 </div>
-<div class=column>
+<div class="column">
  <img src="img/cubano.gif">
 </div>
 </div>
