@@ -28,15 +28,22 @@ Contacto: mralm@xanum.uam.mx
 </div>
 
 
-* Puntos críticos `$\rightarrow$` interpretación atómica
+* Puntos críticos `$\rightarrow$` interpretación estructural
 * Clasificación basada en la matriz Hessiana:
-    
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+    <div class=column>
 |Firma|Objeto|
 |--|--|
 |(3,-3)|Atractor *nuclear* (NA)|
 |(3,-1)|Enlace (BCP)|
 |(3,+1)|Anillo|
 |(3,+1)|Caja|
+    </div>
+    <div class=column>
+        <img src="img/cubano.gif">
+    </div>
+</div>
 
 * (# eigenvalores `$\neq$` 0, `$\sum sign$` eigenvalores) 
 
