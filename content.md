@@ -20,7 +20,7 @@ Contacto: mralm@xanum.uam.mx
 ### Fundamentos de QTAIM
 
 * La Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico) 
-* Análisis topológico de la densidad electrónica $\rho(r)$
+* Análisis topológico de la densidad electrónica `$\rho(r)$`
 
 ---
 
