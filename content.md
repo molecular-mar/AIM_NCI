@@ -19,12 +19,16 @@ Contacto: mralm@xanum.uam.mx
 
 ### Fundamentos de QTAIM
 
-* La Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico) 
-* Análisis topológico de la densidad electrónica `$\rho(r)$`
+*Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico). Análisis topológico de la densidad electrónica `$\rho(r)$`
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
-<div class="r-stretch">                           
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+<div class="column">                           
+        <img src="img/lasawas.png">
+</div>
+<div class="column">                           
 <iframe src="waterRho.html" width="100%" height="100%"></iframe>                                                 
+</div>
 </div>
 
 
@@ -33,12 +37,14 @@ Contacto: mralm@xanum.uam.mx
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
     <div class=column>
+
 |Firma|Objeto|
 |--|--|
 |(3,-3)|Atractor *nuclear* (NA)|
 |(3,-1)|Enlace (BCP)|
 |(3,+1)|Anillo|
 |(3,+1)|Caja|
+
     </div>
     <div class=column>
         <img src="img/cubano.gif">
