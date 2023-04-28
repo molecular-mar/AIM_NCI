@@ -27,7 +27,7 @@ Contacto: mralm@xanum.uam.mx
         <img src="img/lasawas.png">
 </div>
 <div class="column">                           
-<iframe src="waterRho.html" width="100%" height="100%"></iframe>                                                 
+<iframe src="waterRho.html" width="100%" height="500px"></iframe>                                                 
 </div>
 </div>
 
@@ -45,10 +45,10 @@ Contacto: mralm@xanum.uam.mx
 |(3,+1)|Anillo|
 |(3,+1)|Caja|
 
-    </div>
-    <div class=column>
-        <img src="img/cubano.gif">
-    </div>
+</div>
+<div class=column>
+ <img src="img/cubano.gif">
+</div>
 </div>
 
 * (# eigenvalores `$\neq$` 0, `$\sum sign$` eigenvalores) 
@@ -58,9 +58,19 @@ Contacto: mralm@xanum.uam.mx
 
 * NA + BCP + BP = Gráfo molecular
 
+
+### Caso de uso: interacción Gas-MOF
+|||
+|--|--|
+|<img src="img/aimSc.png" height=330px> |<img src="img/aimIn.png" height=330px>|
+
+* AIM study with Bz shows that in the In system the Bz molecule has an additional interaction with a second μ<sub>2</sub>-OH
+
+
+
 ---
 
-### Searching for differences
+### CaTiO<sub>3</sub> con V<sub>O</sub>
 
 <div class="r-stack">
     <div data-markdown class="fragment fade-out">
