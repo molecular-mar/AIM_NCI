@@ -24,23 +24,26 @@ Contacto: mralm@xanum.uam.mx
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
 <div class="r-stretch">                           
-<iframe src="waterRho.html" width="100%" height="300"></iframe>                                                 
+<iframe src="waterRho.html" width="100%" height="100%"></iframe>                                                 
 </div>
 
 
-* Puntos críticos -> interpretación atómica:
+* Puntos críticos `$\rightarrow$` interpretación atómica
+* Clasificación basada en la matriz Hessiana:
     
 |Firma|Objeto|
 |--|--|
-|(3,-3)|Atractor *nuclear*|
-|(3,-1)|Enlace|
+|(3,-3)|Atractor *nuclear* (NA)|
+|(3,-1)|Enlace (BCP)|
 |(3,+1)|Anillo|
 |(3,+1)|Caja|
 
 * (# eigenvalores `$\neq$` 0, `$\sum sign$` eigenvalores) 
 
 
-* Ruta de enlace: Trayectoria `$\Delta \rho$` que une (3,-1) a dos (3,-3). 
+* Ruta de enlace (BP): Trayectoria `$\Delta \rho$` que une (3,-1) a dos (3,-3). 
+
+* NA + BCP + BP = Gráfo molecular
 
 ---
 
