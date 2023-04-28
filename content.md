@@ -27,12 +27,15 @@ Contacto: mralm@xanum.uam.mx
     
 |Firma|Objeto|
 |--|--|
-|(3,-3)|Atractor **nuclear**|
+|(3,-3)|Atractor *nuclear*|
 |(3,-1)|Enlace|
 |(3,+1)|Anillo|
 |(3,+1)|Caja|
 
-* (# eigenvalores `$neq$` 0, `$\sum sign$` eigenvalores) 
+* (# eigenvalores `$\neq$` 0, `$\sum sign$` eigenvalores) 
+
+
+* Ruta de enlace: Trayectoria `$\Delta \rho$` que une (3,-1) a dos (3,-3). 
 
 ---
 
