@@ -22,6 +22,11 @@ Contacto: mralm@xanum.uam.mx
 * La Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico) 
 * Análisis topológico de la densidad electrónica `$\rho(r)$`
 
+<!-- <div class="container-fluid" style="margin-top:40px">                            -->
+<div>                           
+<iframe src="waterRho.html" width="100%" height="300"></iframe>                                                 
+</div>
+
 
 * Puntos críticos -> interpretación atómica:
     
