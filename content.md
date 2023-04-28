@@ -5,7 +5,7 @@ Contacto: mralm@xanum.uam.mx
 
 ||||
 |--|--|--|
-|![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/DES2023newT.png" height=140px)>|<img src="img/logoVGGbn.png" height=140px)>|
+|![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/DES2023newT.png" height=140px)>|<img src="img/logoVGGbn2.png" height=140px)>|
 
 
 ### Contenido
@@ -21,6 +21,18 @@ Contacto: mralm@xanum.uam.mx
 
 * La Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico) 
 * Análisis topológico de la densidad electrónica `$\rho(r)$`
+
+
+* Puntos críticos -> interpretación atómica:
+    
+|Firma|Objeto|
+|--|--|
+|(3,-3)|Atractor **nuclear**|
+|(3,-1)|Enlace|
+|(3,+1)|Anillo|
+|(3,+1)|Caja|
+
+* (# eigenvalores `$neq$` 0, `$\sum sign$` eigenvalores) 
 
 ---
 
