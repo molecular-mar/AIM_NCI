@@ -5,7 +5,7 @@ Contacto: mralm@xanum.uam.mx
 
 |||
 |--|--|
-|![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/logoMSSC.png" height=140px)>|
+|![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/DES2023new.png" height=140px)>|
 
 
 ### Contenido
