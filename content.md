@@ -23,7 +23,7 @@ Contacto: mralm@xanum.uam.mx
 * Análisis topológico de la densidad electrónica `$\rho(r)$`
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
-<div>                           
+<div class="r-stretch">                           
 <iframe src="waterRho.html" width="100%" height="300"></iframe>                                                 
 </div>
 
