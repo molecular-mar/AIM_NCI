@@ -95,8 +95,8 @@ Contacto: mralm@xanum.uam.mx
 
 * Grupo espacial `$Pnma$`
 * Estudio experimental, dopado con Yb`$^{+3}$`
-* Excitación a 2.98 eV (`$E_g=3.85$`)
-* Posible influencia de defectos (¿`$V_O$`?)
+* Excitación a 2.98 eV  \(`$E_g=3.85$`)
+* Posible influencia de defectos  \(¿`$V_O$`?)
 
 </div>
 <div class="column">
