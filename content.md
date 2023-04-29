@@ -102,6 +102,7 @@ Contacto: mralm@xanum.uam.mx
 </div>
 </div>
 
+---
 
 ### Metodología
 
@@ -114,9 +115,37 @@ Contacto: mralm@xanum.uam.mx
 * Sistema con `$V_O$`:
     * Supercelda 16 unidades formula`$\rightarrow$` CaTiO$_{2.937}$-vO$_{0.063}$
     * Dos átomos no equivalentes (O`$_{ap}$` y O`$_{eq}$`)
-    * Muestreo puntos k Monkhorst-Pack 3x3x3 
+    * Muestreo puntos k Monkhorst-Pack 3x3x3
+    * Estado triplete
 
-<div class="r-stack">
+---
+
+### Resultados
+
+* Diferencia triplete-singulete: 
+    * Energía: \[0.05-0.08\] eV (triplete más estable)
+* Aumento en el volumen respecto a pristino: \[0.1-0.3\]\%
+
+
+|Model | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''`|
+|--|--|--|--|--|
+| V`$_O^{ap}$` singulete | 0.57 | 0.49 | 3.37 | -\\
+| V`$_O^{ap}$` triplete | 0.67 | 0.53 | 2.82 | 0.46\\
+| V`$_O^{eq}$` singulete | 0.60 | 0.51 | 3.36 |-\\
+| V`$_O^{eq}$` triplete | 0.60 | 0.44 | 2.80 |0.50\\
+
+<img src="img/dossO1T.png" height=140px)> 
+
+
+* Densidad electrónica en plano Ti-V`$_O$`-Ti
+<img src="img/rho_vOtripS.png" height=140px)> 
+<img src="img/rho_o1tV.png" height=140px)> 
+
+* Laplaciano
+<img src="img/lap_o1t.png" height=140px)> 
+
+
+<!-- <div class="r-stack">
     <div data-markdown class="fragment fade-out">
 
 > Periodic *ab initio* calculations were performed, using the code ***Crystal***, looking up for differences between each system alone and with a Bz molecule. 
@@ -182,10 +211,10 @@ Rivera-Almazo, Marcos, *et al*, Isostructural MFM-300(Sc) and MFM-300(In):
 Adsorption Behavior to Determine Their Differences, The Journal of Physical  
 Chemistry C **2022** 126 (14), 6465-6471
 
-<img src="img/rivera2022G.png" height=250px>
+<img src="img/rivera2022G.png" height=250px> -->
 
 
-## Thank you for you attention!
+## Gracias por su atención
 
-QR for this presentation:
+QR a esta presentación:
 <img src="img/qrGit.png" height=200px>
