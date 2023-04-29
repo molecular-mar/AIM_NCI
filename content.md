@@ -92,13 +92,15 @@ Contacto: mralm@xanum.uam.mx
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
 
 <div data-markdown class="column">
+
 * Grupo espacial `$Pnma$`
 * Estudio experimental, dopado con Yb`$^{+3}$`
 * Excitación a 2.98 eV (`$E_g=3.85$`)
 * Posible influencia de defectos (¿`$V_O$`?)
+
 </div>
 <div class="column">
-
+<img src="img/catio3_tripO1.png" height=140px)> 
 </div>
 </div>
 
@@ -127,7 +129,7 @@ Contacto: mralm@xanum.uam.mx
 * Aumento en el volumen respecto a pristino: \[0.1-0.3\]\%
 
 
-|Model | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''`|
+|Modelo | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''`|
 |--|--|--|--|--|
 | V`$_O^{ap}$` singulete | 0.57 | 0.49 | 3.37 | -\\
 | V`$_O^{ap}$` triplete | 0.67 | 0.53 | 2.82 | 0.46\\
@@ -143,6 +145,17 @@ Contacto: mralm@xanum.uam.mx
 
 * Laplaciano
 <img src="img/lap_o1t.png" height=140px)> 
+
+
+|Modelo | Densidad | Laplaciano|
+|--|--|--|
+|V`$_O^{ap}$` singulete | 0.032 | -119.47 |
+|V`$_O^{ap}$` triplete | 0.021 | -69.71 |
+|V`$_O^{eq}$` singulete | 0.031 | -118.01 |
+|V`$_O^{eq}$` triplete | 0.021 | -69.42 |
+
+
+
 
 
 <!-- <div class="r-stack">
