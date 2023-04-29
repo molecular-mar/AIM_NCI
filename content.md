@@ -55,7 +55,7 @@ Contacto: mralm@xanum.uam.mx
 * (# eigenvalores `$\neq$` 0, `$\sum sign$` eigenvalores) 
 
 
-* Ruta de enlace (BP): Trayectoria `$\Delta \rho$` que une (3,-1) a dos (3,-3). 
+* Ruta de enlace (BP): Trayectoria `$\nabla \rho$` que une (3,-1) a dos (3,-3). 
 
 * NA + BCP + BP = Gráfo molecular
 
@@ -69,6 +69,7 @@ Contacto: mralm@xanum.uam.mx
 |<img src="img/aimSc.png" height=330px> |<model-viewer bounds="tight" enable-pan src="mfmIn_bpath_New.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" camera-orbit="0deg 90deg 2m" poster="img/poster.png" shadow-intensity="0" auto-rotate interaction-prompt=none></model-viewer>| -->
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+<div data-markdown class="column" style: "vertical-align: middle;">
 <img src="img/aimSc.png" height=330px>
 </div>
 <div style="margin: 3em auto; display: flex; flex-direction: column; max-width: 400px;max-height: 500px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
@@ -83,6 +84,7 @@ Contacto: mralm@xanum.uam.mx
             interaction-prompt=none>
         </model-viewer>
     </div>
+</div>
 
 * Benceno en MOF MFM-300(Sc). 
 
