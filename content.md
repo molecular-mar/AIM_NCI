@@ -75,7 +75,6 @@ Contacto: mralm@xanum.uam.mx
 <div style="margin: 3em auto; display: flex; flex-direction: column; max-width: 400px;max-height: 330px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
         <model-viewer bounds="tight" 
  	        enable-pan src="mfmIn_bpath_New.glb"
-            ar ar-modes="webxr scene-viewer quick-look" 
 	        camera-controls environment-image="neutral" 
             camera-orbit="-158.9deg 86.11deg 8.012m" field-of-view="25.77deg"
         	poster="img/poster.png" 
@@ -100,7 +99,7 @@ Contacto: mralm@xanum.uam.mx
 
 </div>
 <div class="column">
-<img src="img/catio3_tripO1.png" height=140px)> 
+<img src="img/catio3_tripO1.png" height=400px)> 
 </div>
 </div>
 
@@ -110,12 +109,12 @@ Contacto: mralm@xanum.uam.mx
 
 * Cálculos *ab initio* usando ***CRYSTAL14***. 
 * Optimización completa de geometría. Bandas, DOS, `$\rho(r)$`.
-* Base POB-TZVP. Funcional XC híbrido PBE0-`\$alpha_{adj}$`
+* Base POB-TZVP. Funcional XC híbrido PBE0-`$\alpha_{adj}$`
 * Sistema prístino, celda unitaria típica.
-    * PBE0 y PBE0-20 para `\$alpha_{adj}$`. `\$alpha_{adj}$=17.33`
+    * PBE0 y PBE0-20 para `$\alpha_{adj}$`. `$\alpha_{adj}$=17.33`
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
 * Sistema con `$V_O$`:
-    * Supercelda 16 unidades formula`$\rightarrow$` CaTiO$_{2.937}$-vO$_{0.063}$
+    * Supercelda 16 unidades formula`$\rightarrow$` CaTiO`$_{2.937}$`-vO`$_{0.063}$`
     * Dos átomos no equivalentes (O`$_{ap}$` y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
     * Estado triplete
@@ -128,23 +127,26 @@ Contacto: mralm@xanum.uam.mx
     * Energía: \[0.05-0.08\] eV (triplete más estable)
 * Aumento en el volumen respecto a pristino: \[0.1-0.3\]\%
 
+<img src="img/catio3_tripO1.png" height=400px)> 
 
-|Modelo | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''`|
+
+|Modelo | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''$`|
 |--|--|--|--|--|
 | V`$_O^{ap}$` singulete | 0.57 | 0.49 | 3.37 | -\\
 | V`$_O^{ap}$` triplete | 0.67 | 0.53 | 2.82 | 0.46\\
 | V`$_O^{eq}$` singulete | 0.60 | 0.51 | 3.36 |-\\
 | V`$_O^{eq}$` triplete | 0.60 | 0.44 | 2.80 |0.50\\
 
-<img src="img/dossO1T.png" height=140px)> 
+<img src="img/dossO1T.png" height=330px)> 
 
 
 * Densidad electrónica en plano Ti-V`$_O$`-Ti
-<img src="img/rho_vOtripS.png" height=140px)> 
-<img src="img/rho_o1tV.png" height=140px)> 
+<img src="img/rho_vOtripS.png" height=300px)> 
+<img src="img/rho_o1tV.png" height=300px)> 
 
-* Laplaciano
-<img src="img/lap_o1t.png" height=140px)> 
+
+* Laplaciano de la densidad
+<img src="img/lap_o1t.png" height=300px)> 
 
 
 |Modelo | Densidad | Laplaciano|
