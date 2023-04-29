@@ -19,7 +19,8 @@ Contacto: mralm@xanum.uam.mx
 
 ### Fundamentos de QTAIM
 
-*Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico). Análisis topológico de la densidad electrónica `$\rho(r)$`
+* Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico). 
+* Análisis topológico de la densidad electrónica `$\rho(r)$`
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
@@ -36,11 +37,11 @@ Contacto: mralm@xanum.uam.mx
 * Clasificación basada en la matriz Hessiana:
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
-<div data-markdown class="column">
+<div data-markdown class="column" style: "vertical-align: middle;">
 
 |Firma|Objeto|
 |--|--|
-|(3,-3)|Atractor *nuclear* (NA)|
+|(3,-3)|Atractor *nuclear/no nuclear* (NA/NNA)|
 |(3,-1)|Enlace (BCP)|
 |(3,+1)|Anillo|
 |(3,+1)|Caja|
@@ -57,6 +58,7 @@ Contacto: mralm@xanum.uam.mx
 * Ruta de enlace (BP): Trayectoria `$\Delta \rho$` que une (3,-1) a dos (3,-3). 
 
 * NA + BCP + BP = Gráfo molecular
+
 
 
 ### Caso de uso: interacción Gas-MOF
