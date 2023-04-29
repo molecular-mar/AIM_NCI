@@ -59,12 +59,27 @@ Contacto: mralm@xanum.uam.mx
 
 * NA + BCP + BP = Gráfo molecular
 
+<img src="img/cubanoBp.png">
+
 
 
 ### Caso de uso: interacción Gas-MOF
 |||
 |--|--|
 |<img src="img/aimSc.png" height=330px> |<img src="img/aimIn.png" height=330px>|
+
+<div style="margin: 3em auto; display: flex; flex-direction: column; max-width: 400px;max-height: 500px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
+        <model-viewer bounds="tight" 
+ 	        enable-pan src="mfmIn_bpath_New.glb"
+            ar ar-modes="webxr scene-viewer quick-look" 
+	        camera-controls environment-image="neutral" 
+            camera-orbit="0deg 90deg 2m"
+        	poster="img/poster.png" 
+        	shadow-intensity="0"
+		auto-rotate
+            interaction-prompt=none>
+        </model-viewer>
+    </div>
 
 * AIM study with Bz shows that in the In system the Bz molecule has an additional interaction with a second μ<sub>2</sub>-OH
 
