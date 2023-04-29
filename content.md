@@ -63,7 +63,7 @@ Contacto: mralm@xanum.uam.mx
 
 
 
-### Caso de uso: interacción Gas-MOF
+### Caso de uso: interacción Benceno-MOF
 <!-- |||
 |--|--|
 |<img src="img/aimSc.png" height=330px> |<model-viewer bounds="tight" enable-pan src="mfmIn_bpath_New.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" camera-orbit="0deg 90deg 2m" poster="img/poster.png" shadow-intensity="0" auto-rotate interaction-prompt=none></model-viewer>| -->
@@ -72,27 +72,49 @@ Contacto: mralm@xanum.uam.mx
 <div data-markdown class="column" style: "vertical-align: middle;">
 <img src="img/aimSc.png" height=330px>
 </div>
-<div style="margin: 3em auto; display: flex; flex-direction: column; max-width: 400px;max-height: 500px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
+<div style="margin: 3em auto; display: flex; flex-direction: column; max-width: 400px;max-height: 330px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
         <model-viewer bounds="tight" 
  	        enable-pan src="mfmIn_bpath_New.glb"
             ar ar-modes="webxr scene-viewer quick-look" 
 	        camera-controls environment-image="neutral" 
-            camera-orbit="0deg 90deg 2m"
+            camera-orbit="-158.9deg 86.11deg 8.012m" field-of-view="25.77deg"
         	poster="img/poster.png" 
-        	shadow-intensity="0"
-		auto-rotate
+        	shadow-intensity="0" auto-rotate
             interaction-prompt=none>
         </model-viewer>
     </div>
 </div>
 
-* Benceno en MOF MFM-300(Sc). 
-
-
-
 ---
 
 ### CaTiO<sub>3</sub> con V<sub>O</sub>
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+
+<div data-markdown class="column">
+* Grupo espacial `$Pnma$`
+* Estudio experimental, dopado con Yb`$^{+3}$`
+* Excitación a 2.98 eV (`$E_g=3.85$`)
+* Posible influencia de defectos (¿`$V_O$`?)
+</div>
+<div class="column">
+
+</div>
+</div>
+
+
+### Metodología
+
+* Cálculos *ab initio* usando ***CRYSTAL14***. 
+* Optimización completa de geometría. Bandas, DOS, `$\rho(r)$`.
+* Base POB-TZVP. Funcional XC híbrido PBE0-`\$alpha_{adj}$`
+* Sistema prístino, celda unitaria típica.
+    * PBE0 y PBE0-20 para `\$alpha_{adj}$`. `\$alpha_{adj}$=17.33`
+    * Muestreo puntos k Monkhorst-Pack 12x12x12 
+* Sistema con `$V_O$`:
+    * Supercelda 16 unidades formula`$\rightarrow$` CaTiO$_{2.937}$-vO$_{0.063}$
+    * Dos átomos no equivalentes (O`$_{ap}$` y O`$_{eq}$`)
+    * Muestreo puntos k Monkhorst-Pack 3x3x3 
 
 <div class="r-stack">
     <div data-markdown class="fragment fade-out">
