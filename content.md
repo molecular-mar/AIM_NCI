@@ -48,7 +48,7 @@ Contacto: mralm@xanum.uam.mx
 
 </div>
 <div class="column">
- <img src="img/cubano.gif">
+ <img src="img/cubano.gif" height="330px">
 </div>
 </div>
 
@@ -59,15 +59,18 @@ Contacto: mralm@xanum.uam.mx
 
 * NA + BCP + BP = Gráfo molecular
 
-<img src="img/cubanoBp.png">
+<img src="img/cubanoBp.png" height="330px">
 
 
 
 ### Caso de uso: interacción Gas-MOF
-|||
+<!-- |||
 |--|--|
-|<img src="img/aimSc.png" height=330px> |<img src="img/aimIn.png" height=330px>|
+|<img src="img/aimSc.png" height=330px> |<model-viewer bounds="tight" enable-pan src="mfmIn_bpath_New.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" camera-orbit="0deg 90deg 2m" poster="img/poster.png" shadow-intensity="0" auto-rotate interaction-prompt=none></model-viewer>| -->
 
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+<img src="img/aimSc.png" height=330px>
+</div>
 <div style="margin: 3em auto; display: flex; flex-direction: column; max-width: 400px;max-height: 500px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
         <model-viewer bounds="tight" 
  	        enable-pan src="mfmIn_bpath_New.glb"
@@ -81,7 +84,7 @@ Contacto: mralm@xanum.uam.mx
         </model-viewer>
     </div>
 
-* AIM study with Bz shows that in the In system the Bz molecule has an additional interaction with a second μ<sub>2</sub>-OH
+* Benceno en MOF MFM-300(Sc). 
 
 
 
