@@ -99,7 +99,7 @@ Contacto: mralm@xanum.uam.mx
 
 </div>
 <div class="column">
-<img src="img/catio3_tripO1.png" height=400px)> 
+<img src="img/catio3Ori.gif" height=400px)> 
 </div>
 </div>
 
@@ -132,10 +132,10 @@ Contacto: mralm@xanum.uam.mx
 
 |Modelo | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''$`|
 |--|--|--|--|--|
-| V`$_O^{ap}$` singulete | 0.57 | 0.49 | 3.37 | -\\
-| V`$_O^{ap}$` triplete | 0.67 | 0.53 | 2.82 | 0.46\\
-| V`$_O^{eq}$` singulete | 0.60 | 0.51 | 3.36 |-\\
-| V`$_O^{eq}$` triplete | 0.60 | 0.44 | 2.80 |0.50\\
+| V`$_O^{ap}$` singulete | 0.57 | 0.49 | 3.37 | -|
+| V`$_O^{ap}$` triplete | 0.67 | 0.53 | 2.82 | 0.46|
+| V`$_O^{eq}$` singulete | 0.60 | 0.51 | 3.36 |-|
+| V`$_O^{eq}$` triplete | 0.60 | 0.44 | 2.80 |0.50|
 
 <img src="img/dossO1T.png" height=330px)> 
 
