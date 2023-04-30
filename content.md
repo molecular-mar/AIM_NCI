@@ -107,18 +107,27 @@ Contacto: mralm@xanum.uam.mx
 
 ### Metodología
 
+<div class="r-stack">
+    <div data-markdown class="fragment fade-out">
+
 * Cálculos *ab initio* usando ***CRYSTAL14***. 
 * Optimización completa de geometría. Bandas, DOS, `$\rho(r)$`.
 * Base POB-TZVP. Funcional XC híbrido PBE0-`$\alpha_{adj}$`
 * Sistema prístino, celda unitaria típica.
     * PBE0 y PBE0-20 para `$\alpha_{adj}$`. `$\alpha_{adj}$=17.33`
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
+
+</div>
+<div data-markdown class="fragment fade-out">
+
 * Sistema con `$V_O$`:
     * Supercelda 16 unidades formula`$\rightarrow$` CaTiO`$_{2.937}$`-vO`$_{0.063}$`
     * Dos átomos no equivalentes (O`$_{ap}$` y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
     * Estado triplete
 
+</div>
+</div>
 ---
 
 ### Resultados
