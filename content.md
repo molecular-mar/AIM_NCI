@@ -131,7 +131,7 @@ https://molecular-mar.github.io/DES2023
     * PBE0(25) y PBE0-20 ajuste. `$\alpha_{adj}$=17.33`
     * Muestreo puntos k Monkhorst-Pack 12x12x12   
 
-<span class="attribution" style="transform: translate( 0%, 20% )">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
+<span class="attribution">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
 
 </div>
     <div data-markdown class="fragment fade-in-then-out">
