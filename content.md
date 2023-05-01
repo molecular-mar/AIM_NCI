@@ -152,6 +152,7 @@ Contacto: mralm@xanum.uam.mx
 
 <img src="img/catio3_tripO1.png" height=400px)> 
 
+
 #### Bandas/DOS
 
 <img src="img/dossO1T.png" height=530px)> 
@@ -168,10 +169,16 @@ Contacto: mralm@xanum.uam.mx
 
 #### Densidad electrónica
 
-* Densidad electrónica en plano Ti-V`$_O$`-Ti
+* Densidad electrónica en plano Ti-`$V_O$`-Ti
 
 <img src="img/rho_vOtripS.png" height=300px)> 
+
+* Forma no esperable del *basin* (Región rodeada por flujo 0).
+
+
 <img src="img/rho_o1tV.png" height=300px)> 
+
+* Acumulación de densidad en `$V_O$`, aparición de pseudoátomo.
 
 
 * Laplaciano de la densidad  
@@ -242,6 +249,8 @@ What we found:
 </div>
 
 -->
+
+---
 
 ### Conclusiones
 
