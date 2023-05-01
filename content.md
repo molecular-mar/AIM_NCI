@@ -77,7 +77,7 @@ Contacto: mralm@xanum.uam.mx
         <model-viewer bounds="tight" 
  	        enable-pan src="models3D/mfmIn_bpath_New.glb"
 	        camera-controls environment-image="neutral" 
-            camera-orbit="-158.9deg 86.11deg 8.012m" field-of-view="25.77deg"
+            camera-orbit="-158.9deg 86.11deg 6.512m" field-of-view="25.77deg"
         	poster="img/poster.png" 
         	shadow-intensity="0" auto-rotate
             interaction-prompt=none>
