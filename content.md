@@ -21,7 +21,7 @@ Contacto: mralm@xanum.uam.mx
 
 * Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico). 
 * Análisis topológico de la densidad electrónica `$\rho(r)$`
-<span class="attribution">Photo courtesy of <a href="https://www.britishmuseum.org">British Museum</a></span>
+<span class="attribution">Bader, R. F. W. Atoms in Molecules: A Quantum Theory; Oxford University Press: Oxford, UK, 1990.</span>
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
@@ -85,6 +85,7 @@ Contacto: mralm@xanum.uam.mx
     </div>
 </div>
 
+<span class="attribution">Rivera-Almazo, M. et al. Isostructural MFM-300(Sc) and MFM-300(In): Adsorption Behavior to Determine Their Differences. J. Phys. Chem. C 300, (2022).</span>
 ---
 
 ### CaTiO<sub>3</sub> con V<sub>O</sub>
@@ -97,6 +98,10 @@ Contacto: mralm@xanum.uam.mx
 * Estudio experimental, dopado con Yb`$^{+3}$`
 * Excitación a 2.98 eV  <br>(`$E_g=3.85$`)
 * Posible influencia de defectos  <br>(¿`$V_O$`?)
+
+<span class="attribution"> I. Padilla-Rosales, I. et al. Near infrared photon-downshifting in Yb3+-doped titanates: The influence of intrinsic defects, Journal of Alloys and Compounds 834,
+155081 (2020).</span>
+
 
 </div>
 <div class="column">
