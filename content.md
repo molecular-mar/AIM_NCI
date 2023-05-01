@@ -11,11 +11,13 @@ Contacto: mralm@xanum.uam.mx
 
 ### Contenido
 
+<div class="r-fit-text">
 * Fundamentos de QTAIM
-    * Algunos ejemplos
 * CaTiO<sub>3</sub> con V<sub>O</sub>
-* V<sub>O</sub> como NNA
-
+* Metodología
+* Resultados
+* Conclusiones
+</div>
 ---
 
 ### Fundamentos de QTAIM
@@ -182,8 +184,8 @@ Contacto: mralm@xanum.uam.mx
 
 
 <img src="img/rho_newT.png" height=350px)> 
-<img src="img/rhoCaAr_newT.png" height=350px)> 
-
+<img src="img/rhoCaAr_newT.png" height=350px)>  
+ 
 * Plano Ca-V`$_O$`-Ca (Izq.).
 
 
@@ -203,7 +205,7 @@ Contacto: mralm@xanum.uam.mx
 <img src="img/lapCaAr_newT.png" height=350px)> 
 
 
-|Modelo | Densidad | Laplaciano|
+|Modelo | `$\rho_{crit}$` | `$\nabla^2 \rho_{crit}$` |
 |--|--|--|
 |V`$_O^{ap}$` singulete | 0.032 | -119.47 |
 |V`$_O^{ap}$` triplete | 0.021 | -69.71 |
