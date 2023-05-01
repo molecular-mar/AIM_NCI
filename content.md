@@ -155,7 +155,8 @@ Contacto: mralm@xanum.uam.mx
 
 #### Bandas/DOS
 
-<img src="img/dossO1T.png" height=530px)> 
+* Aparición de estados `$\alpha` 
+<img src="img/dossO1T.png" height=500px)> 
 
 
 |Modelo | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''$`|
@@ -171,21 +172,33 @@ Contacto: mralm@xanum.uam.mx
 
 #### Densidad electrónica
 
-* Densidad electrónica en plano Ti-`$V_O$`-Ti
+* Densidad electrónica en plano Ti-V`$_O$`-Ti
 
-<img src="img/rho_vOtripS.png" height=300px)> 
+<img src="img/rhoOriYO1T.png" height=300px)> 
 
-* Forma no esperable del *basin* (Región rodeada por flujo 0).
+* Forma interesante del atractor.
 
 
-<img src="img/rho_o1tV.png" height=300px)> 
+<img src="img/rho_newT.png" height=300px)> 
+<img src="img/rhoCaAr_newT.png" height=300px)> 
+
+* Plano Ca-V`$_O$`-Ca (Izq.).
+
+
+<img src="img/rho_newV.png" height=300px)> 
+<img src="img/rhoCaAr_newV.png" height=300px)> 
 
 * Acumulación de densidad en `$V_O$`, aparición de pseudoátomo.
 
 
 * Laplaciano de la densidad   
 
-<img src="img/lap_o1t.png" height=300px)> 
+<img src="img/lap_ori2.png" height=400px)> 
+<img src="img/lap_newT.png" height=400px)> 
+
+
+<img src="img/lap_newT.png" height=400px)> 
+<img src="img/lapCaAr_newT.png" height=400px)> 
 
 
 |Modelo | Densidad | Laplaciano|
@@ -257,7 +270,7 @@ What we found:
 ### Conclusiones
 
 * Los estados generados por V`$_O$` inducen estados inter-banda que puedieran coincidir con el
-encontrado para Yb`^+3`.
+encontrado para Yb`$^{+3}$`.
 * En el sitio de V`$_O$` aparece un NNA, afectando el comportamiento
 general de `$\rho(r)$` en dicha vecindad. Este comportamiento lo asociamos a los estados inter-banda.
 * Por esta afectación, predecimos una interacción Ti-Ti, además de una interacción Ti-Ca.
