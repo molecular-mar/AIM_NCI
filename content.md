@@ -44,7 +44,7 @@ Contacto: mralm@xanum.uam.mx
 |(3,-3)|Atractor *nuclear/no nuclear* (NA/NNA)|
 |(3,-1)|Enlace (BCP)|
 |(3,+1)|Anillo|
-|(3,+1)|Caja|
+|(3,+3)|Caja|
 
 </div>
 <div class="column">
@@ -74,7 +74,7 @@ Contacto: mralm@xanum.uam.mx
 </div>
 <div style="margin: 3em auto; display: flex; flex-direction: column; max-width: 400px;max-height: 330px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
         <model-viewer bounds="tight" 
- 	        enable-pan src="mfmIn_bpath_New.glb"
+ 	        enable-pan src="models3D/mfmIn_bpath_New.glb"
 	        camera-controls environment-image="neutral" 
             camera-orbit="-158.9deg 86.11deg 8.012m" field-of-view="25.77deg"
         	poster="img/poster.png" 
