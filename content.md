@@ -15,13 +15,13 @@ Contacto: mralm@xanum.uam.mx
 https://molecular-mar.github.io/DES2023
 
 
-### Contenido
+## Contenido
 
-* # Fundamentos de QTAIM
-* # CaTiO<sub>3</sub> con V<sub>O</sub>
-* # Metodología
-* # Resultados
-* # Conclusiones
+* ### Fundamentos de QTAIM
+* ### CaTiO<sub>3</sub> con V<sub>O</sub>
+* ### Metodología
+* ### Resultados
+* ### Conclusiones
 
 ---
 
@@ -72,7 +72,7 @@ https://molecular-mar.github.io/DES2023
 
 
 
-### Caso de uso: interacción Benceno-MOF
+### Ejemplo: interacción Benceno-MOF
 <!-- |||
 |--|--|
 |<img src="img/aimSc.png" height=330px> |<model-viewer bounds="tight" enable-pan src="mfmIn_bpath_New.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" camera-orbit="0deg 90deg 2m" poster="img/poster.png" shadow-intensity="0" auto-rotate interaction-prompt=none></model-viewer>| -->
@@ -130,7 +130,7 @@ https://molecular-mar.github.io/DES2023
 * Sistema prístino, celda unitaria típica.
     * PBE0(25) y PBE0-20 ajuste. `$\alpha_{adj}$=17.33`
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
-
+<br>
 <span class="attribution">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
 
 </div>
@@ -161,10 +161,10 @@ https://molecular-mar.github.io/DES2023
 
 * Diferencia triplete-singulete: \[0.05-0.08\] eV (triplete más estable)
 * Aumento en el volumen respecto a pristino: \[0.1-0.3\]\%
+* Resultados para V`$_O^{ap}$` triplete.
 
 <img src="img/catio3_tripO1.png" height=400px)> 
 
-* Resultados para V`$_O^{ap}$` triplete.
 
 
 #### Bandas/DOS
@@ -203,16 +203,15 @@ https://molecular-mar.github.io/DES2023
 * Observamos una región *anillo*, seguida de la región del atractor.
 
 
-<img src="img/rho_newV.png" height=300px)> 
-<img src="img/rhoCaAr_newV.png" height=300px)> 
+<img src="img/rho_newV.png" height=250px)> 
+<img src="img/rhoCaAr_newV.png" height=250px)> 
 
-* Acumulación de densidad en, aparición de pseudoátomo.
+* Planos Ti-V`$_O$`-Ti (izq.)  y Ca-V`$_O$`-Ca (der.).
+* Observamos una región *anillo*, seguida de la región del atractor.
 
 
 <img src="img/lap_ori2.png" height=350px)> 
 <img src="img/lap_newT.png" height=350px)> 
-
-* 
 
 * `$\nabla^2 \rho$`. Pristino (izq.) y V`$_O$` en plano Ti-V`$_O$`-Ti (der.) 
 * Aparición de una capa donde se concentra `$\rho$`.
@@ -223,8 +222,9 @@ https://molecular-mar.github.io/DES2023
 
 * `$\nabla^2 \rho$`. Plano Ti-V`$_O$`-Ti (izq.) y Ca-V`$_O$`-Ca (der.)
 
+
 |Modelo | `$\rho_{crit}$` | `$\nabla^2 \rho_{crit}$` | q (Mulliken)|
-|--|--|--|
+|--|--|--|--|
 |V`$_O^{ap}$` singulete | 0.032 | -119.47 | 0.89 |
 |V`$_O^{ap}$` triplete | 0.021 | -69.71 | 0.69 (0.54 `$\alpha$`) |
 |V`$_O^{eq}$` singulete | 0.031 | -118.01 | 0.89 |
@@ -241,7 +241,7 @@ https://molecular-mar.github.io/DES2023
 * Propiedades de los CP:
 
 |BCP|`$\rho_{crit}$`|`$\nabla^2 \rho_{crit}$`| `$\epsilon$` |
-|--|--|--|
+|--|--|--|--|
 |Ti-Ti| 0.0145| -0.0180| 4.0908|
 |Ti-Ca| 0.0115| 0.0032| 1.7748|
 
