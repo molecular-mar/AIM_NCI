@@ -85,7 +85,7 @@ https://molecular-mar.github.io/DES2023
         <model-viewer bounds="tight" 
  	        enable-pan src="models3D/mfmIn_bpath_New.glb"
 	        camera-controls environment-image="neutral" 
-            camera-orbit="-4.9deg 86.11deg 6.512m" field-of-view="25.77deg"
+            camera-orbit="-4.9deg 86.11deg 3.512m" field-of-view="25.77deg"
         	poster="img/poster.png" 
         	shadow-intensity="0" auto-rotate
             interaction-prompt=none>
@@ -131,7 +131,9 @@ https://molecular-mar.github.io/DES2023
     * PBE0(25) y PBE0-20 ajuste. `$\alpha_{adj}$=17.33`
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
 <br>
-<span class="attribution">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
+
+<span class="attribution" style="transform: translate( 0%, 20% )">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
+
 
 </div>
     <div data-markdown class="fragment fade-in-then-out">
@@ -323,5 +325,6 @@ What we found:
 
 ## Gracias por su atención
 
-QR a esta presentación:
+QR a esta presentación:  
+
 <img src="img/DES2023QR.png" height=200px>
