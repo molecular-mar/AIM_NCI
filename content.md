@@ -14,11 +14,13 @@ Contacto: mralm@xanum.uam.mx
 ### Contenido
 
 <div class="r-fit-text">
+
 * Fundamentos de QTAIM
 * CaTiO<sub>3</sub> con V<sub>O</sub>
 * Metodología
 * Resultados
 * Conclusiones
+
 </div>
 ---
 
