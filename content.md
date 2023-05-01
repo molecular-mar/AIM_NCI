@@ -223,6 +223,13 @@ Contacto: mralm@xanum.uam.mx
 
 * Rutas de enlace Ti-Ti y Ti-Ca, influenciadas por V`$_O$`.
 
+
+* Propiedades de los CP:
+
+|BCP|`$\rho_{crit}$`|`$\nabla^2 \rho_{crit}$`|
+|--|--|--|
+|Ti-Ti|||
+|Ti-Ca|||
 ---
 <!-- <div class="r-stack">
     <div data-markdown class="fragment fade-out">
