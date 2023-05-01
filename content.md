@@ -102,7 +102,6 @@ Contacto: mralm@xanum.uam.mx
 <span class="attribution"> I. Padilla-Rosales, I. et al. Near infrared photon-downshifting in Yb3+-doped titanates: The influence of intrinsic defects, Journal of Alloys and Compounds 834,
 155081 (2020).</span>
 
-
 </div>
 <div class="column">
 <img src="img/catio3Ori.gif" height=400px)> 
@@ -122,6 +121,7 @@ Contacto: mralm@xanum.uam.mx
 * Sistema prístino, celda unitaria típica.
     * PBE0(25) y PBE0-20 ajuste. `$\alpha_{adj}$=17.33`
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
+<span class="attribution">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
 
 </div>
     <div data-markdown class="fragment fade-in-then-out">
@@ -131,6 +131,7 @@ Contacto: mralm@xanum.uam.mx
     * Dos átomos no equivalentes (**O`$_{ap}$`** y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
     * Estado triplete (`$n_\alpha-n\beta=2$`)
+<span class="attribution">Maul, J. et al. A quantum-mechanical investigation of oxygen vacancies and copper doping in the orthorhombic CaSnO3 perovskite. Phys. Chem. Chem. Phys. 20, 20970–20980 (2018).</span>
 
 </div>
     <div data-markdown class="fragment fade-in-then-out">
@@ -138,6 +139,7 @@ Contacto: mralm@xanum.uam.mx
 * Análisis de `$\rho(r)$`
     * TOPOND (CRYSTAL14)
     * Módulo Cube3D de GPUAM
+<span class="attribution">Hernández-Esparza, R. et al. GPUs as Boosters to Analyze Scalar and Vector Fields in Quantum Chemistry. Int. J. Quantum Chem., 119,1−9 (2019).</span>
 
 </div>
 </div>
@@ -150,6 +152,10 @@ Contacto: mralm@xanum.uam.mx
 
 <img src="img/catio3_tripO1.png" height=400px)> 
 
+#### Bandas/DOS
+
+<img src="img/dossO1T.png" height=330px)> 
+
 
 |Modelo | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''$`|
 |--|--|--|--|--|
@@ -158,15 +164,17 @@ Contacto: mralm@xanum.uam.mx
 | V`$_O^{eq}$` singulete | 0.60 | 0.51 | 3.36 |-|
 | V`$_O^{eq}$` triplete | 0.60 | 0.44 | 2.80 |0.50|
 
-<img src="img/dossO1T.png" height=330px)> 
 
+#### Densidad electrónica
 
 * Densidad electrónica en plano Ti-V`$_O$`-Ti
+
 <img src="img/rho_vOtripS.png" height=300px)> 
 <img src="img/rho_o1tV.png" height=300px)> 
 
 
-* Laplaciano de la densidad
+* Laplaciano de la densidad  
+
 <img src="img/lap_o1t.png" height=300px)> 
 
 

@@ -1,15 +1,15 @@
 /* Attribution plugin: text along the right edge of the viewport */
 .attribution{
   position: absolute;
-  top: 50%;
-  bottom: auto;
+  top: auto;
+  bottom: 90%;
   left: 50%;
   right: auto;
   font-size: 0.4em;
   pointer-events: none;
   text-align: center;
-  writing-mode: vertical-lr;
-  transform: translate( -50%, -50% ) scale( 1 ) rotate( 180deg );
+  writing-mode: horizontal-tb;
+ /* transform: translate( -50%, -50% ) scale( 1 ) rotate( 180deg );*/
 }
 
 /* Attribution plugin: activate pointer events for attribution text only */
