@@ -21,6 +21,7 @@ Contacto: mralm@xanum.uam.mx
 
 * Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico). 
 * Análisis topológico de la densidad electrónica `$\rho(r)$`
+<span class="attribution">Photo courtesy of <a href="https://www.britishmuseum.org">British Museum</a></span>
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
@@ -111,10 +112,10 @@ Contacto: mralm@xanum.uam.mx
     <div data-markdown class="fragment fade-out">
 
 * Cálculos *ab initio* usando ***CRYSTAL14***. 
-* Optimización completa de geometría. Bandas, DOS, `$\rho(r)$`.
+* Optimización completa de geometría.
 * Base POB-TZVP. Funcional XC híbrido PBE0-`$\alpha_{adj}$`
 * Sistema prístino, celda unitaria típica.
-    * PBE0 y PBE0-20 para `$\alpha_{adj}$`. `$\alpha_{adj}$=17.33`
+    * PBE0(25) y PBE0-20 ajuste. `$\alpha_{adj}$=17.33`
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
 
 </div>
@@ -124,7 +125,14 @@ Contacto: mralm@xanum.uam.mx
     * Supercelda 16 unidades formula`$\rightarrow$` CaTiO`$_{2.937}$`-vO`$_{0.063}$`
     * Dos átomos no equivalentes (**O`$_{ap}$`** y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
-    * Estado triplete
+    * Estado triplete (`$n_\alpha-n\beta=2$`)
+
+</div>
+    <div data-markdown class="fragment fade-in-then-out">
+
+* Análisis de `$\rho(r)$`
+    * TOPOND (CRYSTAL14)
+    * Módulo Cube3D de GPUAM
 
 </div>
 </div>
