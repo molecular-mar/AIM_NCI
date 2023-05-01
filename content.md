@@ -29,7 +29,7 @@ Contacto: mralm@xanum.uam.mx
         <img src="img/lasawas.png">
 </div>
 <div class="column">                           
-<iframe src="waterRho.html" height="400px"></iframe>                                                 
+<iframe src="waterRho.html" height="300px"></iframe>                                                 
 </div>
 </div>
 
@@ -58,7 +58,7 @@ Contacto: mralm@xanum.uam.mx
 
 * Ruta de enlace (BP): Trayectoria `$\nabla \rho$` que une (3,-1) a dos (3,-3). 
 
-* NA + BCP + BP = Gráfo molecular
+* NA + BCP + BP = Grafo molecular
 
 <img src="img/cubanoBp.png" height="330px">
 
@@ -86,6 +86,7 @@ Contacto: mralm@xanum.uam.mx
 </div>
 
 <span class="attribution">Rivera-Almazo, M. et al. Isostructural MFM-300(Sc) and MFM-300(In): Adsorption Behavior to Determine Their Differences. J. Phys. Chem. C 300, (2022).</span>
+
 ---
 
 ### CaTiO<sub>3</sub> con V<sub>O</sub>
@@ -155,7 +156,7 @@ Contacto: mralm@xanum.uam.mx
 
 #### Bandas/DOS
 
-* Aparición de estados `$\alpha` 
+* Aparición de estados `$\alpha$` 
 <img src="img/dossO1T.png" height=500px)> 
 
 
@@ -174,31 +175,31 @@ Contacto: mralm@xanum.uam.mx
 
 * Densidad electrónica en plano Ti-V`$_O$`-Ti
 
-<img src="img/rhoOriYO1T.png" height=300px)> 
+<img src="img/rhoOriYO1T.png" height=350px)> 
 
 * Forma interesante del atractor.
 
 
-<img src="img/rho_newT.png" height=300px)> 
-<img src="img/rhoCaAr_newT.png" height=300px)> 
+<img src="img/rho_newT.png" height=350px)> 
+<img src="img/rhoCaAr_newT.png" height=350px)> 
 
 * Plano Ca-V`$_O$`-Ca (Izq.).
 
 
-<img src="img/rho_newV.png" height=300px)> 
-<img src="img/rhoCaAr_newV.png" height=300px)> 
+<img src="img/rho_newV.png" height=200px)> 
+<img src="img/rhoCaAr_newV.png" height=200px)> 
 
 * Acumulación de densidad en V`$_O$`, aparición de pseudoátomo.
 
 
-* Laplaciano de la densidad   
+<img src="img/lap_ori2.png" height=350px)> 
+<img src="img/lap_newT.png" height=350px)> 
 
-<img src="img/lap_ori2.png" height=400px)> 
-<img src="img/lap_newT.png" height=400px)> 
+* `$\nabla^2 \rho$`. Clara aparición de una capa.
 
 
-<img src="img/lap_newT.png" height=400px)> 
-<img src="img/lapCaAr_newT.png" height=400px)> 
+<img src="img/lap_newT.png" height=350px)> 
+<img src="img/lapCaAr_newT.png" height=350px)> 
 
 
 |Modelo | Densidad | Laplaciano|
