@@ -8,6 +8,8 @@ Contacto: mralm@xanum.uam.mx
 |--|--|--|
 |![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/DES2023newT.png" height=140px)>|<img src="img/logoVGGbn2.png" height=140px)>|
 
+<img src="img/DES2023QR.png" height=200px> molecular-mar.github.io/DES2023
+
 
 ### Contenido
 
@@ -297,4 +299,4 @@ general de `$\rho(r)$` en dicha vecindad. Este comportamiento lo asociamos a los
 ## Gracias por su atención
 
 QR a esta presentación:
-<img src="img/qrGit.png" height=200px>
+<img src="img/DES2023QR.png" height=200px>
