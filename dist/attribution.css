@@ -8,10 +8,10 @@
   font-size: 0.4em;
   pointer-events: none;
   text-align: center;
-  writing-mode: horizontal-tb;
-  transform: translate( -50%, -50% ) scale( 1 ) rotate( 180deg );
+  transform: translate( -50%, 0% ) scale( 1 ) rotate( 0deg );
 }
  /* transform: translate( -50%, -50% ) scale( 1 ) rotate( 180deg );*/
+  /*writing-mode: horizontal-tb;*/
 
 /* Attribution plugin: activate pointer events for attribution text only */
 .attribution .content{

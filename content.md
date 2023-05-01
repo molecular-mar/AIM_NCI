@@ -29,7 +29,7 @@ Contacto: mralm@xanum.uam.mx
         <img src="img/lasawas.png">
 </div>
 <div class="column">                           
-<iframe src="waterRho.html" width="100%" height="500px"></iframe>                                                 
+<iframe src="waterRho.html" height="400px"></iframe>                                                 
 </div>
 </div>
 
@@ -166,6 +166,7 @@ Contacto: mralm@xanum.uam.mx
 | V`$_O^{eq}$` triplete | 0.60 | 0.44 | 2.80 |0.50|
 
 * El Gap `$E_g'$` es cercano al valor observado para la excitación de Yb`$^{+3}$`
+
 
 
 #### Densidad electrónica
