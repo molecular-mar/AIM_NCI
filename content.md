@@ -167,6 +167,7 @@ Contacto: mralm@xanum.uam.mx
 
 * El Gap `$E_g'$` es cercano al valor observado para la excitación de Yb`$^{+3}$`
 
+
 #### Densidad electrónica
 
 * Densidad electrónica en plano Ti-`$V_O$`-Ti
@@ -181,7 +182,7 @@ Contacto: mralm@xanum.uam.mx
 * Acumulación de densidad en `$V_O$`, aparición de pseudoátomo.
 
 
-* Laplaciano de la densidad  
+* Laplaciano de la densidad   
 
 <img src="img/lap_o1t.png" height=300px)> 
 
