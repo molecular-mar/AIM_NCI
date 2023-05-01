@@ -11,16 +11,17 @@ Contacto: mralm@xanum.uam.mx
 
 ### Versión interactiva
 
-<img src="img/DES2023QR.png" height=200px> https://molecular-mar.github.io/DES2023
+<img src="img/DES2023QR.png" height=200px><br>
+https://molecular-mar.github.io/DES2023
 
 
 ### Contenido
 
-* Fundamentos de QTAIM
-* CaTiO<sub>3</sub> con V<sub>O</sub>
-* Metodología
-* Resultados
-* Conclusiones
+* # Fundamentos de QTAIM
+* # CaTiO<sub>3</sub> con V<sub>O</sub>
+* # Metodología
+* # Resultados
+* # Conclusiones
 
 ---
 
@@ -84,7 +85,7 @@ Contacto: mralm@xanum.uam.mx
         <model-viewer bounds="tight" 
  	        enable-pan src="models3D/mfmIn_bpath_New.glb"
 	        camera-controls environment-image="neutral" 
-            camera-orbit="-158.9deg 86.11deg 6.512m" field-of-view="25.77deg"
+            camera-orbit="-4.9deg 86.11deg 6.512m" field-of-view="25.77deg"
         	poster="img/poster.png" 
         	shadow-intensity="0" auto-rotate
             interaction-prompt=none>
@@ -129,6 +130,7 @@ Contacto: mralm@xanum.uam.mx
 * Sistema prístino, celda unitaria típica.
     * PBE0(25) y PBE0-20 ajuste. `$\alpha_{adj}$=17.33`
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
+
 <span class="attribution">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
 
 </div>
@@ -139,6 +141,7 @@ Contacto: mralm@xanum.uam.mx
     * Dos átomos no equivalentes (**O`$_{ap}$`** y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
     * Estado triplete (`$n_\alpha-n\beta=2$`)
+
 <span class="attribution">Maul, J. et al. A quantum-mechanical investigation of oxygen vacancies and copper doping in the orthorhombic CaSnO3 perovskite. Phys. Chem. Chem. Phys. 20, 20970–20980 (2018).</span>
 
 </div>
@@ -147,6 +150,7 @@ Contacto: mralm@xanum.uam.mx
 * Análisis de `$\rho(r)$`
     * TOPOND (CRYSTAL14)
     * Módulo Cube3D de GPUAM
+
 <span class="attribution">Hernández-Esparza, R. et al. GPUs as Boosters to Analyze Scalar and Vector Fields in Quantum Chemistry. Int. J. Quantum Chem., 119,1−9 (2019).</span>
 
 </div>
@@ -160,12 +164,16 @@ Contacto: mralm@xanum.uam.mx
 
 <img src="img/catio3_tripO1.png" height=400px)> 
 
+* Resultados para V`$_O^{ap}$` triplete.
+
 
 #### Bandas/DOS
 
-* Aparición de estados `$\alpha$` 
+* Aparición de estados `$\alpha$`.<br>
 <img src="img/dossO1T.png" height=500px)> 
 
+
+#### Valores de Gaps
 
 |Modelo | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''$`|
 |--|--|--|--|--|
@@ -181,40 +189,46 @@ Contacto: mralm@xanum.uam.mx
 #### Densidad electrónica
 
 * Densidad electrónica en plano Ti-V`$_O$`-Ti
+* Pristino (izq.) y V`$_O$` (der).
 
 <img src="img/rhoOriYO1T.png" height=350px)> 
 
-* Forma interesante del atractor.
+* Diferencia clara en la forma de los Ti.
 
 
 <img src="img/rho_newT.png" height=350px)> 
 <img src="img/rhoCaAr_newT.png" height=350px)>  
  
-* Plano Ca-V`$_O$`-Ca (Izq.).
+* Planos Ti-V`$_O$`-Ti (izq.)  y Ca-V`$_O$`-Ca (der.).
+* Observamos una región *anillo*, seguida de la región del atractor.
 
 
-<img src="img/rho_newV.png" height=200px)> 
-<img src="img/rhoCaAr_newV.png" height=200px)> 
+<img src="img/rho_newV.png" height=300px)> 
+<img src="img/rhoCaAr_newV.png" height=300px)> 
 
-* Acumulación de densidad en V`$_O$`, aparición de pseudoátomo.
+* Acumulación de densidad en, aparición de pseudoátomo.
 
 
 <img src="img/lap_ori2.png" height=350px)> 
 <img src="img/lap_newT.png" height=350px)> 
 
-* `$\nabla^2 \rho$`. Clara aparición de una capa.
+* 
+
+* `$\nabla^2 \rho$`. Pristino (izq.) y V`$_O$` en plano Ti-V`$_O$`-Ti (der.) 
+* Aparición de una capa donde se concentra `$\rho$`.
 
 
 <img src="img/lap_newT.png" height=350px)> 
 <img src="img/lapCaAr_newT.png" height=350px)> 
 
+* `$\nabla^2 \rho$`. Plano Ti-V`$_O$`-Ti (izq.) y Ca-V`$_O$`-Ca (der.)
 
-|Modelo | `$\rho_{crit}$` | `$\nabla^2 \rho_{crit}$` |
+|Modelo | `$\rho_{crit}$` | `$\nabla^2 \rho_{crit}$` | q (Mulliken)|
 |--|--|--|
-|V`$_O^{ap}$` singulete | 0.032 | -119.47 |
-|V`$_O^{ap}$` triplete | 0.021 | -69.71 |
-|V`$_O^{eq}$` singulete | 0.031 | -118.01 |
-|V`$_O^{eq}$` triplete | 0.021 | -69.42 |
+|V`$_O^{ap}$` singulete | 0.032 | -119.47 | 0.89 |
+|V`$_O^{ap}$` triplete | 0.021 | -69.71 | 0.69 (0.54 `$\alpha$`) |
+|V`$_O^{eq}$` singulete | 0.031 | -118.01 | 0.89 |
+|V`$_O^{eq}$` triplete | 0.021 | -69.42 | 0.68 (0.54 `$\alpha$`)|
 
 
 ### Rutas de enlace
@@ -226,11 +240,15 @@ Contacto: mralm@xanum.uam.mx
 
 * Propiedades de los CP:
 
-|BCP|`$\rho_{crit}$`|`$\nabla^2 \rho_{crit}$`|
+|BCP|`$\rho_{crit}$`|`$\nabla^2 \rho_{crit}$`| `$\epsilon$` |
 |--|--|--|
-|Ti-Ti|||
-|Ti-Ca|||
+|Ti-Ti| 0.0145| -0.0180| 4.0908|
+|Ti-Ca| 0.0115| 0.0032| 1.7748|
+
+* `$\epsilon = \lambda_1 / \lambda_2 - 1 $`. Desviación de la distribución circular de `$\rho$` en plano perpendicular al BP. 
+
 ---
+
 <!-- <div class="r-stack">
     <div data-markdown class="fragment fade-out">
 
@@ -288,12 +306,10 @@ What we found:
 
 ### Conclusiones
 
-* Los estados generados por V`$_O$` inducen estados inter-banda que puedieran coincidir con el
-encontrado para Yb`$^{+3}$`.
-* En el sitio de V`$_O$` aparece un NNA, afectando el comportamiento
-general de `$\rho(r)$` en dicha vecindad. Este comportamiento lo asociamos a los estados inter-banda.
-* Por esta afectación, predecimos una interacción Ti-Ti, además de una interacción Ti-Ca.
-* El estudio adecuado de `$\rho(r)$` alrededor de V`$_O$` requiere de una alta precisión, dado el efecto *de corto alcance* del NNA.
+* La inclusión de V`$_O$` conlleva la aparición de estados. El Gap Valencia-Estado V`$_O$` es cercano con el encontrado para CaTiO`$^3$` + Yb`$^{+3}$`.
+* En el sitio de V`$_O$` aparece un NNA, afectando el comportamiento general de `$\rho(r)$` en dicha vecindad. Este cambio lo asociamos a la aparición de las bandas adicionales.
+* El comportamiento de `$\rho$` alrededor de V`$_O$`, con un *anillo* de densidad alrededor del atractor, no parece estar previamente reportado.
+* Obtenemos una interacción Ti-Ti, además de una interacción Ti-Ca. No encontramos interacciones con V`$_O$`.
 <!-- Given a [proposed](https://pubs.acs.org/doi/10.1021/acs.chemmater.1c01918) reaction mechanism, this may explain the formation of larger polysulfides.  -->
 
 ---
