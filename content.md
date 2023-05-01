@@ -118,7 +118,7 @@ Contacto: mralm@xanum.uam.mx
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
 
 </div>
-<div data-markdown class="fragment fade-out">
+    <div data-markdown class="fragment fade-in-then-out">
 
 * Sistema con `$V_O$`:
     * Supercelda 16 unidades formula`$\rightarrow$` CaTiO`$_{2.937}$`-vO`$_{0.063}$`
