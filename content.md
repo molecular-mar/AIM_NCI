@@ -94,8 +94,8 @@ Contacto: mralm@xanum.uam.mx
 
 * Grupo espacial `$Pnma$`
 * Estudio experimental, dopado con Yb`$^{+3}$`
-* Excitación a 2.98 eV  \(`$E_g=3.85$`)
-* Posible influencia de defectos  \(¿`$V_O$`?)
+* Excitación a 2.98 eV  <br>(`$E_g=3.85$`)
+* Posible influencia de defectos  <br>(¿`$V_O$`?)
 
 </div>
 <div class="column">
@@ -122,7 +122,7 @@ Contacto: mralm@xanum.uam.mx
 
 * Sistema con `$V_O$`:
     * Supercelda 16 unidades formula`$\rightarrow$` CaTiO`$_{2.937}$`-vO`$_{0.063}$`
-    * Dos átomos no equivalentes (O`$_{ap}$` y O`$_{eq}$`)
+    * Dos átomos no equivalentes (**O`$_{ap}$`** y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
     * Estado triplete
 
@@ -132,8 +132,7 @@ Contacto: mralm@xanum.uam.mx
 
 ### Resultados
 
-* Diferencia triplete-singulete: 
-    * Energía: \[0.05-0.08\] eV (triplete más estable)
+* Diferencia triplete-singulete: \[0.05-0.08\] eV (triplete más estable)
 * Aumento en el volumen respecto a pristino: \[0.1-0.3\]\%
 
 <img src="img/catio3_tripO1.png" height=400px)> 
