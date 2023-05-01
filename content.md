@@ -128,8 +128,9 @@ https://molecular-mar.github.io/DES2023
 * Optimización completa de geometría.
 * Base POB-TZVP. Funcional XC híbrido PBE0-`$\alpha_{adj}$`
 * Sistema prístino, celda unitaria típica.
-    * PBE0(25) y PBE0-20 ajuste. `$\alpha_{adj}$=17.33`
-    * Muestreo puntos k Monkhorst-Pack 12x12x12   
+    * PBE0(25%) y PBE0-20% ajuste. `$\alpha_{adj}$=17.33%`
+    * Muestreo puntos k Monkhorst-Pack 12x12x12 
+<br />  
 
 <span class="attribution">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
 
@@ -306,7 +307,7 @@ What we found:
 
 ### Conclusiones
 
-* La inclusión de V`$_O$` conlleva la aparición de estados. El Gap Valencia-Estado V`$_O$` es cercano con el encontrado para CaTiO`$^3$` + Yb`$^{+3}$`.
+* La inclusión de V`$_O$` conlleva la aparición de estados.<br> El Gap Valencia-Estado V`$_O$` es cercano con el encontrado para CaTiO`$^3$` + Yb`$^{+3}$`.
 * En el sitio de V`$_O$` aparece un NNA, afectando el comportamiento general de `$\rho(r)$` en dicha vecindad. Este cambio lo asociamos a la aparición de las bandas adicionales.
 * El comportamiento de `$\rho$` alrededor de V`$_O$`, con un *anillo* de densidad alrededor del atractor, no parece estar previamente reportado.
 * Obtenemos una interacción Ti-Ti, además de una interacción Ti-Ca. No encontramos interacciones con V`$_O$`.
