@@ -1,5 +1,6 @@
 ### Vacancia de oxígeno como atractor no nuclear en CaTiO<sub>3</sub>
-M. en C. Marcos Rivera-Almazo <a href="https://molecular-mar.github.io/"><img src="img/github.png" height=50px></a> <a href="https://www.researchgate.net/profile/Marcos-Rivera-Almazo"><img src="img/rglogo.png" height=50px></a>
+M. en C. Marcos Rivera-Almazo <a href="https://molecular-mar.github.io/"><img src="img/github.png" height=50px></a> <a href="https://www.researchgate.net/profile/Marcos-Rivera-Almazo"><img src="img/rglogo.png" height=50px></a><br>
+Asesor: Prof. Jorge Garza Olguín
 
 Contacto: mralm@xanum.uam.mx
 

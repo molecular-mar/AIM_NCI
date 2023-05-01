@@ -45,7 +45,7 @@ const initAttribution = function(Reveal){
       attribution[i].style.width = configuredWidth + "px";
       attribution[i].style.height = configuredHeight + "px";
       attribution[i].innerHTML = "<span class='content'>" + content + "</span>";
-      attribution[i].style.transform = 'translate( -50%, -50% ) scale( ' + scale*100 + '% ) rotate(-180deg)';
+      attribution[i].style.transform = 'translate( -50%, -50% ) scale( ' + scale*100 + '% ) rotate(0deg)';
     }
 
     // Scale with cover class to mimic backgroundSize cover
@@ -68,7 +68,7 @@ const initAttribution = function(Reveal){
         s = xScale/yScale;
     }
     for (var i = 0; i < attribution.length; i++) {
-      attribution[i].style.transform = 'translate( -50%, -50% ) scale( ' + s*scale*100 + '% ) rotate(-180deg)';
+      attribution[i].style.transform = 'translate( -50%, -50% ) scale( ' + s*scale*100 + '% ) rotate(0deg)';
     }
   }
 
