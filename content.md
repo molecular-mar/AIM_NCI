@@ -129,11 +129,9 @@ https://molecular-mar.github.io/DES2023
 * Base POB-TZVP. Funcional XC híbrido PBE0-`$\alpha_{adj}$`
 * Sistema prístino, celda unitaria típica.
     * PBE0(25) y PBE0-20 ajuste. `$\alpha_{adj}$=17.33`
-    * Muestreo puntos k Monkhorst-Pack 12x12x12 
-<br>
+    * Muestreo puntos k Monkhorst-Pack 12x12x12   
 
 <span class="attribution" style="transform: translate( 0%, 20% )">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
-
 
 </div>
     <div data-markdown class="fragment fade-in-then-out">
@@ -142,7 +140,7 @@ https://molecular-mar.github.io/DES2023
     * Supercelda 16 unidades formula`$\rightarrow$` CaTiO`$_{2.937}$`-vO`$_{0.063}$`
     * Dos átomos no equivalentes (**O`$_{ap}$`** y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
-    * Estado triplete (`$n_\alpha-n\beta=2$`)
+    * Estado triplete (`$n_\alpha-n\beta=2$`)  
 
 <span class="attribution">Maul, J. et al. A quantum-mechanical investigation of oxygen vacancies and copper doping in the orthorhombic CaSnO3 perovskite. Phys. Chem. Chem. Phys. 20, 20970–20980 (2018).</span>
 
