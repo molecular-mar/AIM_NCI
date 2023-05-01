@@ -8,12 +8,13 @@ Contacto: mralm@xanum.uam.mx
 |--|--|--|
 |![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/DES2023newT.png" height=140px)>|<img src="img/logoVGGbn2.png" height=140px)>|
 
+
+### Versión interactiva
+
 <img src="img/DES2023QR.png" height=200px> https://molecular-mar.github.io/DES2023
 
 
 ### Contenido
-
-<div class="r-fit-text">
 
 * Fundamentos de QTAIM
 * CaTiO<sub>3</sub> con V<sub>O</sub>
@@ -21,7 +22,6 @@ Contacto: mralm@xanum.uam.mx
 * Resultados
 * Conclusiones
 
-</div>
 ---
 
 ### Fundamentos de QTAIM
