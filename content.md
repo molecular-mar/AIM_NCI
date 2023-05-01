@@ -97,7 +97,7 @@ Contacto: mralm@xanum.uam.mx
 * Grupo espacial `$Pnma$`
 * Estudio experimental, dopado con Yb`$^{+3}$`
 * Excitación a 2.98 eV  <br>(`$E_g=3.85$`)
-* Posible influencia de defectos  <br>(¿`$V_O$`?)
+* Posible influencia de defectos  <br>(¿V`$_O$`?)
 
 <span class="attribution"> I. Padilla-Rosales, I. et al. Near infrared photon-downshifting in Yb3+-doped titanates: The influence of intrinsic defects, Journal of Alloys and Compounds 834,
 155081 (2020).</span>
@@ -126,7 +126,7 @@ Contacto: mralm@xanum.uam.mx
 </div>
     <div data-markdown class="fragment fade-in-then-out">
 
-* Sistema con `$V_O$`:
+* Sistema con V`$_O$`:
     * Supercelda 16 unidades formula`$\rightarrow$` CaTiO`$_{2.937}$`-vO`$_{0.063}$`
     * Dos átomos no equivalentes (**O`$_{ap}$`** y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
@@ -188,7 +188,7 @@ Contacto: mralm@xanum.uam.mx
 <img src="img/rho_newV.png" height=300px)> 
 <img src="img/rhoCaAr_newV.png" height=300px)> 
 
-* Acumulación de densidad en `$V_O$`, aparición de pseudoátomo.
+* Acumulación de densidad en V`$_O$`, aparición de pseudoátomo.
 
 
 * Laplaciano de la densidad   
@@ -209,9 +209,13 @@ Contacto: mralm@xanum.uam.mx
 |V`$_O^{eq}$` triplete | 0.021 | -69.42 |
 
 
+### Rutas de enlace
 
+<img src="img/cavO1T_1.png" height=400px)> 
 
+* Rutas de enlace Ti-Ti y Ti-Ca, influenciadas por V`$_O$`.
 
+---
 <!-- <div class="r-stack">
     <div data-markdown class="fragment fade-out">
 
