@@ -219,22 +219,25 @@ What we found:
     </div>
 </div>
 
+-->
+
+### Conclusiones
+
+* Los estados generados por V`$_O$` inducen estados inter-banda que puedieran coincidir con el
+encontrado para Yb`^+3`.
+* En el sitio de V`$_O$` aparece un NNA, afectando el comportamiento
+general de `$\rho(r)$` en dicha vecindad. Este comportamiento lo asociamos a los estados inter-banda.
+* Por esta afectación, predecimos una interacción Ti-Ti, además de una interacción Ti-Ca.
+* El estudio adecuado de `$\rho(r)$` alrededor de V`$_O$` requiere de una alta precisión, dado el efecto *de corto alcance* del NNA.
+<!-- Given a [proposed](https://pubs.acs.org/doi/10.1021/acs.chemmater.1c01918) reaction mechanism, this may explain the formation of larger polysulfides.  -->
+
 ---
+<!-- ### Published [article](https://pubs.acs.org/doi/10.1021/acs.jpcc.2c00742):   -->
+<!-- Rivera-Almazo, Marcos, *et al*, Isostructural MFM-300(Sc) and MFM-300(In):   -->
+<!-- Adsorption Behavior to Determine Their Differences, The Journal of Physical   -->
+<!-- Chemistry C **2022** 126 (14), 6465-6471 -->
 
-### Conclusions
-
-* MFM-300(Sc) has a tighter structure, given the non-covalent interactions predicted. More ordered material. 
-* MFM-300(In) OH groups tend to modify its direction on the influence of an adsorbed Bz. 
-* Because of that it has a lower adsorption capacity. 
-* Given a [proposed](https://pubs.acs.org/doi/10.1021/acs.chemmater.1c01918) reaction mechanism, this may explain the formation of larger polysulfides. 
-
----
-### Published [article](https://pubs.acs.org/doi/10.1021/acs.jpcc.2c00742):  
-Rivera-Almazo, Marcos, *et al*, Isostructural MFM-300(Sc) and MFM-300(In):  
-Adsorption Behavior to Determine Their Differences, The Journal of Physical  
-Chemistry C **2022** 126 (14), 6465-6471
-
-<img src="img/rivera2022G.png" height=250px> -->
+<!-- <img src="img/rivera2022G.png" height=250px>  -->
 
 
 ## Gracias por su atención
