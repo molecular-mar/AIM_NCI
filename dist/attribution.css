@@ -2,15 +2,15 @@
 .attribution{
   position: absolute;
   top: auto;
-  bottom: 90%;
+  bottom: 10%;
   left: 50%;
   right: auto;
   font-size: 0.4em;
   pointer-events: none;
   text-align: center;
   writing-mode: horizontal-tb;
- /* transform: translate( -50%, -50% ) scale( 1 ) rotate( 180deg );*/
 }
+ /* transform: translate( -50%, -50% ) scale( 1 ) rotate( 180deg );*/
 
 /* Attribution plugin: activate pointer events for attribution text only */
 .attribution .content{
