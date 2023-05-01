@@ -1,8 +1,8 @@
 /* Attribution plugin: text along the right edge of the viewport */
 .attribution{
   position: absolute;
-  top: auto;
-  bottom: 10%;
+  top: 98%;
+  bottom: auto;
   left: 50%;
   right: auto;
   font-size: 0.4em;
