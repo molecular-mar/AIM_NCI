@@ -27,8 +27,8 @@ https://molecular-mar.github.io/DES2023
 
 ### Fundamentos de QTAIM
 
-* Teoría Cuántica de Átomos en Moléculas: definir un átomo en un sistema (finito o periódico). 
-* Análisis topológico de la densidad electrónica `$\rho(r)$` (con `$\nabla \rho(r)$`)
+* Teoría Cuántica de Átomos en Moléculas: definir los átomos en un sistema (finito o periódico). 
+* Análisis topológico de la densidad electrónica `$\rho(r)$` (con `$\nabla \rho(r)$`) 
 <span class="attribution">Bader, R. F. W. Atoms in Molecules: A Quantum Theory; Oxford University Press: Oxford, UK, 1990.</span>
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
@@ -48,7 +48,7 @@ https://molecular-mar.github.io/DES2023
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
 <div data-markdown class="column" style: "vertical-align: middle;">
 
-|Firma|Objeto|
+|Tipo|Objeto|
 |--|--|
 |(3,-3)|Atractor *nuclear/no nuclear* (NA/NNA)|
 |(3,-1)|Enlace (BCP)|
@@ -66,7 +66,7 @@ https://molecular-mar.github.io/DES2023
 
 * Ruta de enlace (BP): Trayectoria `$\nabla \rho$` que une (3,-1) a dos (3,-3). 
 
-* NA + BCP + BP = Grafo molecular
+* Grafo molecular, conjunto de BP que dan la conectividad.
 
 <img src="img/cubanoBp.png" height="330px">
 
@@ -85,7 +85,7 @@ https://molecular-mar.github.io/DES2023
         <model-viewer bounds="tight" 
  	        enable-pan src="models3D/mfmIn_bpath_New.glb"
 	        camera-controls environment-image="neutral" 
-            camera-orbit="-4.9deg 86.11deg 3.512m" field-of-view="25.77deg" ar
+            camera-orbit="-4.9deg 86.11deg 3.512m" field-of-view="25.77deg" ar ar-modes="scene-viewer webxr quick-look"
         	poster="img/poster.png" 
         	shadow-intensity="0" auto-rotate
             interaction-prompt=none>
@@ -130,7 +130,7 @@ https://molecular-mar.github.io/DES2023
 * Sistema prístino, celda unitaria típica.
     * PBE0(25%) y PBE0-20% ajuste. `$\alpha_{adj}$=17.33%`
     * Muestreo puntos k Monkhorst-Pack 12x12x12 
-<br />  
+<p>&nbsp;</p>  
 
 <span class="attribution">Dovesi, R. et al. CRYSTAL14 : A program for the ab initio investigation of crystalline solids. Int. J. Quantum Chem. 114, 1287–1317 (2014).</span> 
 
@@ -141,7 +141,7 @@ https://molecular-mar.github.io/DES2023
     * Supercelda 16 unidades formula`$\rightarrow$` CaTiO`$_{2.937}$`-vO`$_{0.063}$`
     * Dos átomos no equivalentes (**O`$_{ap}$`** y O`$_{eq}$`)
     * Muestreo puntos k Monkhorst-Pack 3x3x3
-    * Estado triplete (`$n_\alpha-n\beta=2$`)  
+    * Estado triplete (`$n_\alpha-n_\beta=2$`)  
 
 <span class="attribution">Maul, J. et al. A quantum-mechanical investigation of oxygen vacancies and copper doping in the orthorhombic CaSnO3 perovskite. Phys. Chem. Chem. Phys. 20, 20970–20980 (2018).</span>
 
@@ -171,17 +171,18 @@ https://molecular-mar.github.io/DES2023
 #### Bandas/DOS
 
 * Aparición de estados `$\alpha$`.<br>
-<img src="img/dossO1T.png" height=500px)> 
+<img src="img/dossO1T.png" height=450px)> 
 
 
 #### Valores de Gaps
 
 |Modelo | `$E_g^{dir}$` | `$E_g^{ind}$` | `$E_g'$` |  `$E_g''$`|
 |--|--|--|--|--|
-| V`$_O^{ap}$` singulete | 0.57 | 0.49 | 3.37 | -|
 | V`$_O^{ap}$` triplete | 0.67 | 0.53 | 2.82 | 0.46|
-| V`$_O^{eq}$` singulete | 0.60 | 0.51 | 3.36 |-|
 | V`$_O^{eq}$` triplete | 0.60 | 0.44 | 2.80 |0.50|
+
+<!-- | V`$_O^{ap}$` singulete | 0.57 | 0.49 | 3.37 | -| -->
+<!-- | V`$_O^{eq}$` singulete | 0.60 | 0.51 | 3.36 |-| -->
 
 * `$E_g'$` es cercano al valor observado para la excitación de Yb`$^{+3}$` en CaTiO`$_3$`
 
@@ -192,44 +193,45 @@ https://molecular-mar.github.io/DES2023
 * Densidad electrónica en plano Ti-V`$_O$`-Ti
 * Pristino (izq.) y V`$_O$` (der).
 
-<img src="img/rhoOriYO1T.png" height=350px)> 
+<img src="img/rhoOriYO1T.png" height=350px> 
 
 * Diferencia clara en la forma de los Ti.
 
 
-<img src="img/rho_newT.png" height=350px)> 
-<img src="img/rhoCaAr_newT.png" height=350px)>  
+<img src="img/rho_newT.png" height=350px> 
+<img src="img/rhoCaAr_newT.png" height=350px>  
  
 * Planos Ti-V`$_O$`-Ti (izq.)  y Ca-V`$_O$`-Ca (der.).
 * Observamos una región *anillo*, seguida de la región del atractor.
 
 
-<img src="img/rho_newV.png" height=250px)> 
-<img src="img/rhoCaAr_newV.png" height=250px)> 
+<img src="img/rho_newV.png" height=250px style="margin:0; padding:0;"> 
+<img src="img/rhoCaAr_newV.png" height=250px style="margin:0; padding:0;"> 
 
 * Planos Ti-V`$_O$`-Ti (izq.)  y Ca-V`$_O$`-Ca (der.).
 * Observamos una región *anillo*, seguida de la región del atractor.
 
 
-<img src="img/lap_ori2.png" height=350px)> 
-<img src="img/lap_newT.png" height=350px)> 
+<img src="img/lap_ori2.png" height=350px> 
+<img src="img/lap_newT.png" height=350px> 
 
 * `$\nabla^2 \rho$`. Pristino (izq.) y V`$_O$` en plano Ti-V`$_O$`-Ti (der.) 
 * Aparición de una capa donde se concentra `$\rho$`.
 
 
-<img src="img/lap_newT.png" height=350px)> 
-<img src="img/lapCaAr_newT.png" height=350px)> 
+<img src="img/lap_newT.png" height=350px> 
+<img src="img/lapCaAr_newT.png" height=350px> 
 
 * `$\nabla^2 \rho$`. Plano Ti-V`$_O$`-Ti (izq.) y Ca-V`$_O$`-Ca (der.)
 
 
 |Modelo | `$\rho_{crit}$` | `$\nabla^2 \rho_{crit}$` | q (Mulliken)|
 |--|--|--|--|
-|V`$_O^{ap}$` singulete | 0.032 | -119.47 | 0.89 |
 |V`$_O^{ap}$` triplete | 0.021 | -69.71 | 0.69 (0.54 `$\alpha$`) |
-|V`$_O^{eq}$` singulete | 0.031 | -118.01 | 0.89 |
 |V`$_O^{eq}$` triplete | 0.021 | -69.42 | 0.68 (0.54 `$\alpha$`)|
+
+<!-- |V`$_O^{ap}$` singulete | 0.032 | -119.47 | 0.89 | -->
+<!-- |V`$_O^{eq}$` singulete | 0.031 | -118.01 | 0.89 | -->
 
 
 ### Rutas de enlace
