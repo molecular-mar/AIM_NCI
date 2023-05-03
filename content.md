@@ -27,8 +27,8 @@ https://molecular-mar.github.io/DES2023
 
 ### Fundamentos de QTAIM
 
-* Teoría Cuántica de Átomos en Moléculas: describir la estructura atómica de un sistema (finito o periódico). 
-* Análisis topológico de la densidad electrónica `$\rho(r)$`
+* Teoría Cuántica de Átomos en Moléculas: definir un átomo en un sistema (finito o periódico). 
+* Análisis topológico de la densidad electrónica `$\rho(r)$` (con `$\nabla \rho(r)$`)
 <span class="attribution">Bader, R. F. W. Atoms in Molecules: A Quantum Theory; Oxford University Press: Oxford, UK, 1990.</span>
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
