@@ -36,8 +36,8 @@ https://molecular-mar.github.io/DES2023
 <div class="column">                           
         <img src="img/lasawas.png">
 </div>
-<div class="column">                           
-<iframe src="waterRho.html" height="300px"></iframe>                                                 
+<div class="column">
+        <img src="img/waterAIM.png" height="300px">
 </div>
 </div>
 
@@ -85,7 +85,7 @@ https://molecular-mar.github.io/DES2023
         <model-viewer bounds="tight" 
  	        enable-pan src="models3D/mfmIn_bpath_New.glb"
 	        camera-controls environment-image="neutral" 
-            camera-orbit="-4.9deg 86.11deg 3.512m" field-of-view="25.77deg"
+            camera-orbit="-4.9deg 86.11deg 3.512m" field-of-view="25.77deg" ar
         	poster="img/poster.png" 
         	shadow-intensity="0" auto-rotate
             interaction-prompt=none>
