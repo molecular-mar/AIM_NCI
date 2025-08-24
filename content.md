@@ -1,34 +1,32 @@
-### Vacancia de oxígeno como atractor no nuclear en CaTiO<sub>3</sub>
+### Métodos para el estudio de interacciones entre átomos
 M. en C. Marcos Rivera-Almazo <a href="https://molecular-mar.github.io/"><img src="img/github.png" height=50px></a> <a href="https://www.researchgate.net/profile/Marcos-Rivera-Almazo"><img src="img/rglogo.png" height=50px></a><br>
 Asesor: Prof. Jorge Garza Olguín
 
 Contacto: mralm@xanum.uam.mx
 
-||||
-|--|--|--|
-|![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/DES2023newT.png" height=140px)>|<img src="img/logoVGGbn2.png" height=140px)>|
+|||
+|--|--|
+|![logo UAM-I](img/logoUAMIw.svg "logo UAM-I")|<img src="img/logoVGGbn2.png" height=140px)>|
 
 
-### Versión interactiva
+### Versión en linea
 
-<img src="img/DES2023QR.png" height=200px><br>
-https://molecular-mar.github.io/DES2023
+<!-- <img src="img/DES2023QR.png" height=200px><br> -->
+https://molecular-mar.github.io/AIM_NCI
 
 
 ## Contenido
 
-* ### Fundamentos de QTAIM
-* ### CaTiO<sub>3</sub> con V<sub>O</sub>
-* ### Metodología
-* ### Resultados
-* ### Conclusiones
+* ### QTAIM
+* ### NCI
+* ### Casos de uso
 
 ---
 
-### Fundamentos de QTAIM
+### Introducción a QTAIM
 
 * Teoría Cuántica de Átomos en Moléculas: definir los átomos en un sistema (finito o periódico). 
-* Análisis topológico de la densidad electrónica `$\rho(r)$` (con `$\nabla \rho(r)$`) 
+* Análisis topológico de la densidad electrónica `$\rho(\mathbf{r})$` (con `$\nabla \rho(\mathbf{r})$`) 
 <span class="attribution">Bader, R. F. W. Atoms in Molecules: A Quantum Theory; Oxford University Press: Oxford, UK, 1990.</span>
 
 <!-- <div class="container-fluid" style="margin-top:40px">                            -->
@@ -95,8 +93,118 @@ https://molecular-mar.github.io/DES2023
 
 <span class="attribution">Rivera-Almazo, M. et al. Isostructural MFM-300(Sc) and MFM-300(In): Adsorption Behavior to Determine Their Differences. J. Phys. Chem. C 300, (2022).</span>
 
+
+### CaTiO<sub>3</sub> w/V<sub>O</sub>
+
+<img src="img/cavO1T_1.png" height=400px)> 
+
+* Rutas de enlace Ti-Ti y Ti-Ca, influenciadas por V`$_O$`.
+
 ---
 
+### Non-Covalent Interactions Index
+
+* Basado en el análisis del gradiente reducido `$s(\mathbf{r})$` `$$s(\mathbf{r}) = \frac{1}{C_s} \frac{|\nabla \rho(\mathbf{r})|}{\rho(\mathbf{r})^{3/4}} $$`
+* Usado para describir la desviación respecto a una distribución homogenea de electrones (modelo Thomas-Fermi)
+* Usado junto con `$\rho(\mathbf{r})$` (*fuerza*) y `$\mathrm{sign}(\lambda_2)$` (*atracción/repulsión*). 
+
+
+* Interacciones no covalentes: `$s(\mathbf{r})$` y `$\rho(\mathbf{r})$` pequeños. No siempre direccionales. 
+
+* Gráfica de isosuperficie de `$s(\mathbf{r})$`, indicando `$\mathrm{sign}(\lambda_2)\rho(\mathbf{r})$`
+
+<img src="img/benNCIC.png" height=400px)> 
+
+
+## Interacción Benceno-MOF
+
+<img src="img/nciMFM.png" height=400px)> 
+
+
+## Interacción Benceno-MOF
+
+<div style="margin: 1em auto; display: flex; flex-direction: column; max-width: 700px;max-height: 400px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); overflow: hidden">
+        <model-viewer bounds="tight" 
+            enable-pan src="models3D/MFMIn_NCI.glb"
+            camera-controls environment-image="neutral" 
+            camera-orbit="40.9deg 86.11deg 1.512m" field-of-view="25.77deg" ar ar-modes="scene-viewer webxr quick-look"
+            poster="img/poster.png" 
+            shadow-intensity="0" auto-rotate
+            interaction-prompt=none>
+        </model-viewer>
+    </div>
+
+
+## Gracias por su atención
+
+<!-- <div class="r-stack">
+    <div data-markdown class="fragment fade-out">
+
+> Periodic *ab initio* calculations were performed, using the code ***Crystal***, looking up for differences between each system alone and with a Bz molecule. 
+
+<img src="img/cry.png" height=140px)>
+    </div>    
+    <div data-markdown class="fragment fade-in-then-out">
+
+|||
+|--|--|
+|MFM-300(Sc)|MFM-300(In)|
+
+What we found:
+    </div>    
+    <div data-markdown class="fragment fade-in-then-out">
+
+|||
+|--|--|
+|<img src="img/diffRhoScOMO.png" height=280px> |<img src="img/diffRhoInOMO.png" height=280px>|
+
+* Electronic density differences between the bulk system and a reference isolated atoms model show differences in the distribution of the electronic density, primarily around the oxygen from μ<sub>2</sub>-OH
+
+    </div>    
+    <div data-markdown class="fragment fade-in-then-out">
+    
+    
+|||
+|--|--|
+|<img src="img/nciSc32.png" height=330px> |<img src="img/nciIn32.png" height=330px>|
+        
+* NCI analysis shows different nature of non-covalent interactions around a M-O(H)-M-O-C-O ring, which could indicate a higher strain for the In system.
+    </div>    
+    <div data-markdown class="fragment fade-in-then-out">
+
+|||
+|--|--|
+|<img src="img/aimSc.png" height=330px> |<img src="img/aimIn.png" height=330px>|
+
+* AIM study with Bz shows that in the In system the Bz molecule has an additional interaction with a second μ<sub>2</sub>-OH
+    </div>    
+    <div data-markdown class="fragment fade-in">
+
+|||
+|--|--|
+|<img src="img/voidSc1.png" height=300px> |<img src="img/voidIn1.png" height=300px>|
+
+* Void analysis shows posible second Bz adsorption sites. μ<sub>2</sub>-OHs in the In system are less directed to the pore, therefore less available for new interactions.
+    </div>
+</div>
+
+-->
+
+---
+<!-- ### Published [article](https://pubs.acs.org/doi/10.1021/acs.jpcc.2c00742):   -->
+<!-- Rivera-Almazo, Marcos, *et al*, Isostructural MFM-300(Sc) and MFM-300(In):   -->
+<!-- Adsorption Behavior to Determine Their Differences, The Journal of Physical   -->
+<!-- Chemistry C **2022** 126 (14), 6465-6471 -->
+
+<!-- <img src="img/rivera2022G.png" height=250px>  -->
+
+
+
+<!-- QR a esta presentación:  
+
+<img src="img/DES2023QR.png" height=200px> -->
+
+---
 ### CaTiO<sub>3</sub> con V<sub>O</sub>
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
@@ -233,78 +341,6 @@ https://molecular-mar.github.io/DES2023
 <!-- |V`$_O^{ap}$` singulete | 0.032 | -119.47 | 0.89 | -->
 <!-- |V`$_O^{eq}$` singulete | 0.031 | -118.01 | 0.89 | -->
 
-
-### Rutas de enlace
-
-<img src="img/cavO1T_1.png" height=400px)> 
-
-* Rutas de enlace Ti-Ti y Ti-Ca, influenciadas por V`$_O$`.
-
-
-* Propiedades de los CP:
-
-|BCP|`$\rho_{crit}$`|`$\nabla^2 \rho_{crit}$`| `$\epsilon$` |
-|--|--|--|--|
-|Ti-Ti| 0.0145| -0.0180| 4.0908|
-|Ti-Ca| 0.0115| 0.0032| 1.7748|
-
-* `$\epsilon = \lambda_1 / \lambda_2 - 1 $`. Desviación de la distribución circular de `$\rho$` en plano perpendicular al BP. 
-
----
-
-<!-- <div class="r-stack">
-    <div data-markdown class="fragment fade-out">
-
-> Periodic *ab initio* calculations were performed, using the code ***Crystal***, looking up for differences between each system alone and with a Bz molecule. 
-
-<img src="img/cry.png" height=140px)>
-    </div>    
-    <div data-markdown class="fragment fade-in-then-out">
-
-|||
-|--|--|
-|MFM-300(Sc)|MFM-300(In)|
-
-What we found:
-    </div>    
-    <div data-markdown class="fragment fade-in-then-out">
-
-|||
-|--|--|
-|<img src="img/diffRhoScOMO.png" height=280px> |<img src="img/diffRhoInOMO.png" height=280px>|
-
-* Electronic density differences between the bulk system and a reference isolated atoms model show differences in the distribution of the electronic density, primarily around the oxygen from μ<sub>2</sub>-OH
-
-    </div>    
-    <div data-markdown class="fragment fade-in-then-out">
-    
-    
-|||
-|--|--|
-|<img src="img/nciSc32.png" height=330px> |<img src="img/nciIn32.png" height=330px>|
-        
-* NCI analysis shows different nature of non-covalent interactions around a M-O(H)-M-O-C-O ring, which could indicate a higher strain for the In system.
-    </div>    
-    <div data-markdown class="fragment fade-in-then-out">
-
-|||
-|--|--|
-|<img src="img/aimSc.png" height=330px> |<img src="img/aimIn.png" height=330px>|
-
-* AIM study with Bz shows that in the In system the Bz molecule has an additional interaction with a second μ<sub>2</sub>-OH
-    </div>    
-    <div data-markdown class="fragment fade-in">
-
-|||
-|--|--|
-|<img src="img/voidSc1.png" height=300px> |<img src="img/voidIn1.png" height=300px>|
-
-* Void analysis shows posible second Bz adsorption sites. μ<sub>2</sub>-OHs in the In system are less directed to the pore, therefore less available for new interactions.
-    </div>
-</div>
-
--->
-
 ---
 
 ### Conclusiones
@@ -314,18 +350,3 @@ What we found:
 * El comportamiento de `$\rho$` alrededor de V`$_O$`, con un *anillo* de densidad alrededor del atractor, no parece estar previamente reportado.
 * Obtenemos una interacción Ti-Ti, además de una interacción Ti-Ca. No encontramos interacciones con V`$_O$`.
 <!-- Given a [proposed](https://pubs.acs.org/doi/10.1021/acs.chemmater.1c01918) reaction mechanism, this may explain the formation of larger polysulfides.  -->
-
----
-<!-- ### Published [article](https://pubs.acs.org/doi/10.1021/acs.jpcc.2c00742):   -->
-<!-- Rivera-Almazo, Marcos, *et al*, Isostructural MFM-300(Sc) and MFM-300(In):   -->
-<!-- Adsorption Behavior to Determine Their Differences, The Journal of Physical   -->
-<!-- Chemistry C **2022** 126 (14), 6465-6471 -->
-
-<!-- <img src="img/rivera2022G.png" height=250px>  -->
-
-
-## Gracias por su atención
-
-QR a esta presentación:  
-
-<img src="img/DES2023QR.png" height=200px>
